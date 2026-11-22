@@ -1,30 +1,42 @@
-# cintel-06-continuous-intelligence
+# cintel-06-continuous-intelligence-sowers
 
 [![Python 3.14](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](pyproject.toml)
-[![CI](https://github.com/denisecase/cintel-06-continuous-intelligence/actions/workflows/ci-python-zensical.yml/badge.svg)](https://github.com/denisecase/cintel-06-continuous-intelligence/actions/workflows/ci-python-zensical.yml)
-[![Documentation](https://img.shields.io/badge/docs-site-blue?logo=github)](https://denisecase.github.io/cintel-06-continuous-intelligence/)
+[![CI](https://github.com/ssowers2/cintel-06-continuous-intelligence-sowers/actions/workflows/ci-python-zensical.yml/badge.svg)](https://github.com/ssowers2/cintel-06-continuous-intelligence-sowers/actions/workflows/ci-python-zensical.yml)
+[![Documentation](https://img.shields.io/badge/docs-site-blue?logo=github)](https://ssowers2.github.io/cintel-06-continuous-intelligence-sowers/)
 
 [![uv managed](https://img.shields.io/badge/uv-managed-DE5FE9)](https://docs.astral.sh/uv/)
 [![ty type checked](https://img.shields.io/badge/ty-type_checked-2F80ED)](https://docs.astral.sh/ty/)
 [![Zensical docs](https://img.shields.io/badge/Zensical-docs-purple)](https://zensical.org/)
 [![MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 
-> Combine monitoring signals and anomaly detection to assess system health.
+> Integrate anomaly detection, signal design, rolling monitoring, and drift detection to assess system performance and healthcare data governance readiness.
 
 ## Project Overview
 
-Author: Denise Case
+**Author:** Sabriya Sowers
 
-Date: 2026 October
+**Date:** November 2026
 
-This project brings together techniques introduced
-throughout the Continuous Intelligence course.
+This project brings together techniques introduced throughout the Continuous Intelligence course, including signal design, anomaly detection, rolling monitoring, and drift detection.
 
-The goal is to transform system measurements into useful signals,
-identify unusual behavior, and summarize the system's current state.
+The original example uses operational system measurements to identify unusual behavior and classify the overall system state as STABLE or DEGRADED.
 
-The project is configured in
-[pyproject.toml](pyproject.toml).
+### Planned Customization
+
+The planned customization will extend the Metadata Completeness & Governance Readiness Monitor developed in previous projects.
+
+The goal is to integrate multiple monitoring techniques into one continuous intelligence application using synthetic healthcare metadata.
+
+The application will evaluate metrics such as:
+
+- Metadata completeness
+- Ownership coverage
+- Stewardship coverage
+- Documentation gaps
+
+The integrated monitoring system will help identify unusual changes, evaluate trends, and generate an overall governance readiness assessment.
+
+The project is configured in [pyproject.toml](pyproject.toml).
 
 ## Data
 
@@ -114,7 +126,7 @@ uv run pytest
 
 ## Project Documentation
 
-The [hosted documentation site](https://denisecase.github.io/cintel-06-continuous-intelligence/)
+The [hosted documentation site](https://ssowers2.github.io/cintel-06-continuous-intelligence-sowers/)
 is published using Zensical and GitHub Pages.
 
 The documentation site is used to present the project report,
@@ -127,8 +139,8 @@ This project includes continuous integration and continuous deployment (CI/CD)
 to check project files and publish the docs.
 GitHub Actions include:
 
-- [CI: Python and Documentation Checks](https://github.com/denisecase/cintel-06-continuous-intelligence/actions/workflows/ci-python-zensical.yml)
-- [CD: Documentation Deployment](https://github.com/denisecase/cintel-06-continuous-intelligence/actions/workflows/deploy-zensical.yml)
+- [CI: Python and Documentation Checks](https://github.com/ssowers2/cintel-06-continuous-intelligence-sowers/actions/workflows/ci-python-zensical.yml)
+- [CD: Documentation Deployment](https://github.com/ssowers2/cintel-06-continuous-intelligence-sowers/actions/workflows/deploy-zensical.yml)
 
 ## Developer Reference
 
@@ -213,7 +225,8 @@ testing, documentation, and code quality.
 
 ## Links
 
-- [Hosted Documentation](https://denisecase.github.io/cintel-06-continuous-intelligence/)
+- [GitHub Repository](https://github.com/ssowers2/cintel-06-continuous-intelligence-sowers)
+- [Hosted Documentation](https://ssowers2.github.io/cintel-06-continuous-intelligence-sowers/)
 - [Professional Python Workflow Guide](https://denisecase.github.io/pro-analytics-02/)
 - [Citation](CITATION.cff)
 - [License](LICENSE)

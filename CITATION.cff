@@ -8,12 +8,13 @@
 # CUSTOM: Update author, repository, license, and keyword fields as needed.
 # USAGE: See https://citation-file-format.github.io/ for details.
 
+
 cff-version: "1.2.0"
 message: "If using this project, please cite it as described in this file."
 type: software
 
-title: cintel-06-continuous-intelligence
-date-released: "2026-03-06"
+title: cintel-06-continuous-intelligence-sowers
+date-released: "2026-11-21"
 
 authors:
   - family-names: Case
@@ -21,22 +22,38 @@ authors:
     orcid: "https://orcid.org/0000-0001-6165-7389"
     affiliation: "Northwest Missouri State University, USA"
 
-repository-code: "https://github.com/denisecase/cintel-06-continuous-intelligence"
-url: "https://github.com/denisecase/cintel-06-continuous-intelligence"
+  - family-names: Sowers
+    given-names: Sabriya
+
+repository-code: "https://github.com/ssowers2/cintel-06-continuous-intelligence-sowers"
+url: "https://ssowers2.github.io/cintel-06-continuous-intelligence-sowers/"
 license: MIT
 
 abstract: |
-  Continuous Intelligence Example Project 6 - Continuous Intelligence.
-  Demonstrates professional Python project structure and workflows.
+  Continuous Intelligence Project 06 - Integrated Continuous Intelligence.
+  Demonstrates anomaly detection, signal design, rolling monitoring,
+  drift detection, and system assessment using Python.
+  Includes a custom healthcare metadata and data governance readiness focus.
 
 keywords:
   - data analytics
   - continuous intelligence
+  - data governance
+  - data quality
+  - metadata management
+  - governance readiness
+  - anomaly detection
+  - signal design
+  - rolling monitoring
+  - drift detection
+  - system assessment
   - professional workflows
   - reproducible workflows
   - software quality
   - git
   - github
+  - marimo
+  - polars
   - prek
   - python
   - ruff
