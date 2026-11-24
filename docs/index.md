@@ -26,7 +26,7 @@ Each observation records:
 The dataset includes a period of elevated
 errors and response times.
 
-[View Example Dataset](https://github.com/denisecase/cintel-06-continuous-intelligence/blob/main/data/system_metrics.csv)
+[View Example Dataset](https://github.com/ssowers2/cintel-06-continuous-intelligence-sowers/blob/main/data/system_metrics.csv)
 
 ## Methods
 
@@ -58,7 +58,7 @@ It classifies the overall system state as:
 
 ## Results
 
-The example produces the following assessment.
+The original example, using a 40 ms latency threshold, produces the following assessment.
 
 | Metric               |   Result |
 | -------------------- | -------: |
@@ -68,12 +68,41 @@ The example produces the following assessment.
 | Average latency      | 33.71 ms |
 | Overall system state |   STABLE |
 
-The pipeline also identifies **7 anomalous observations**
-using its individual-observation thresholds.
+The original example also identifies **7 anomalous observations** using its original thresholds.
 
-[View System Assessment](https://github.com/denisecase/cintel-06-continuous-intelligence/blob/main/artifacts/system_assessment.csv)
+[View Modified System Assessment](https://github.com/ssowers2/cintel-06-continuous-intelligence-sowers/blob/main/artifacts/system_assessment.csv)
 
-## Interpretation
+## Technical Experiment: Adjusting the Latency Threshold
+
+### Modification
+
+Changed `MAX_AVG_LATENCY` in `src/cintel/continuous_intelligence.py` from 40.0 to 30.0 milliseconds.
+
+### Purpose
+
+Evaluate how adjusting a monitoring threshold affects the overall system assessment without changing the underlying data.
+
+### Prediction
+
+The system classification was expected to change from STABLE to DEGRADED because the average latency of 33.71 milliseconds exceeds the new threshold of 30 milliseconds.
+
+### Results
+
+The pipeline executed successfully, and the system assessment changed from STABLE to DEGRADED.
+
+| Measurement | Original | Modified |
+|---|---|---|
+| Latency threshold | 40 ms | 30 ms |
+| Average latency | 33.71 ms | 33.71 ms |
+| System state | STABLE | DEGRADED |
+
+Automated testing completed successfully with one passing test and 44.17% code coverage.
+
+### Interpretation
+
+The experiment demonstrates that monitoring thresholds directly influence system classifications. The underlying system measurements remained unchanged, but lowering the latency threshold caused the system to be classified as DEGRADED. This highlights the importance of selecting thresholds based on operational expectations and meaningful performance requirements.
+
+## Original Interpretation
 
 The overall assessment is `STABLE`
 because the average error rate and latency
@@ -130,13 +159,12 @@ and sufficient detail to investigate anomalous conditions.
 - [**Project Instructions**](project-instructions.md)
 - [**Glossary**](glossary.md)
 - [**API**](api.md)
-- [**Reactive App**](./app/index.html)
 
 ## Project Links
 
-- [GitHub Repository](https://github.com/denisecase/cintel-06-continuous-intelligence)
-- [Example Pipeline](https://github.com/denisecase/cintel-06-continuous-intelligence/blob/main/src/cintel/continuous_intelligence.py)
-- [Results and Artifacts](https://github.com/denisecase/cintel-06-continuous-intelligence/tree/main/artifacts)
+- [GitHub Repository](https://github.com/ssowers2/cintel-06-continuous-intelligence-sowers)
+- [Example Pipeline](https://github.com/ssowers2/cintel-06-continuous-intelligence-sowers/blob/main/src/cintel/continuous_intelligence.py)
+- [Results and Artifacts](https://github.com/ssowers2/cintel-06-continuous-intelligence-sowers/tree/main/artifacts)
 
 ## Project Resources
 

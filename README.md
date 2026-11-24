@@ -98,7 +98,7 @@ and writes `artifacts/system_assessment.csv`.
 Review the resulting system assessment and explain
 which signals support the reported state.
 
-The example classifies the system state as:
+The original example uses a 40 ms latency threshold and classifies the overall system state as STABLE. The modified experiment uses a 30 ms threshold and produces a DEGRADED classification.
 
 - **STABLE** - summary signals remain within the defined thresholds.
 - **DEGRADED** - one or more summary signals exceed the defined thresholds.
@@ -115,6 +115,38 @@ A `project.log` file is created in the project root.
 
 This confirms that the Python pipeline executes
 and the logging system works.
+
+## Technical Experiment: Adjusting the Latency Threshold
+
+A controlled experiment was conducted to evaluate how changing a monitoring threshold affects the overall system assessment.
+
+### Modification
+
+Changed `MAX_AVG_LATENCY` in `src/cintel/continuous_intelligence.py` from 40.0 to 30.0 milliseconds. The underlying system measurements remained unchanged.
+
+### Prediction
+
+The system classification was expected to change from STABLE to DEGRADED because the average latency of 33.71 milliseconds exceeds the modified threshold of 30 milliseconds.
+
+### Results
+
+The pipeline executed successfully and confirmed the predicted change.
+
+| Measurement | Original | Modified |
+|---|---|---|
+| Latency threshold | 40 ms | 30 ms |
+| Average latency | 33.71 ms | 33.71 ms |
+| System state | STABLE | DEGRADED |
+
+Automated testing completed successfully with one passing test and 44.17% code coverage.
+
+### Interpretation
+
+The experiment demonstrates how monitoring thresholds influence system classifications without changing the underlying data. Selecting appropriate thresholds is important for producing meaningful assessments and avoiding unnecessary alerts.
+
+The full experiment, including the methodology and interpretation, is documented on the [Project 06 Documentation Site](https://ssowers2.github.io/cintel-06-continuous-intelligence-sowers/).
+
+[View Modified System Assessment](artifacts/system_assessment.csv)
 
 ## Verification
 

@@ -1,7 +1,7 @@
 """continuous_intelligence.py - Project script (example).
 
-Author: Your Name Here
-Date: 2026-mm-dd
+Author: Sabriya Sowers
+Date: 2026-11-22
 
 System Metrics Data
 
@@ -89,7 +89,7 @@ OUTPUT_FILE: Final[Path] = ARTIFACTS_DIR / "system_assessment.csv"
 # choose thresholds that make sense for their specific use case.
 
 MAX_ERROR_RATE: Final[float] = 0.05
-MAX_AVG_LATENCY: Final[float] = 40.0
+MAX_AVG_LATENCY: Final[float] = 30.0
 
 # === DEFINE THE MAIN FUNCTION ===
 
