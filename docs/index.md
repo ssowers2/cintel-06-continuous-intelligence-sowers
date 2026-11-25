@@ -172,3 +172,123 @@ and sufficient detail to investigate anomalous conditions.
 - [Professional Python Guide](https://denisecase.github.io/pro-analytics-02/)
 - [Professional Python Project Explainer](https://pup-pack.github.io/professional-python-project-explainer/).
 - [Suggested Datasets](https://denisecase.github.io/pro-analytics-02/reference/datasets/cintel/)
+
+## Custom Application: Integrated Governance Intelligence
+
+### Problem and Objective
+
+The Metadata Completeness & Governance Readiness Monitor extends previous Continuous Intelligence projects into one integrated monitoring system.
+
+The central question is:
+
+> Can signal design, anomaly detection, rolling monitoring, and drift detection be combined to provide a meaningful assessment of healthcare metadata governance readiness?
+
+The objective is to evaluate governance metrics together, identify potential concerns, and generate an overall readiness classification supported by monitoring evidence.
+
+### Data
+
+The analysis uses synthetic healthcare metadata developed in previous projects.
+
+| Dataset | Description |
+|---|---|
+| `metadata_inventory.csv` | Original inventory of 60 synthetic metadata assets |
+| `governance_inventory_timeseries.csv` | 720 simulated asset-week observations |
+| `governance_metrics_timeseries.csv` | 12 weekly governance summaries |
+
+Four metrics are monitored:
+
+- Metadata completeness
+- Ownership coverage
+- Stewardship coverage
+- Documentation gaps
+
+All observations are synthetic and do not contain patient information or actual organizational performance data.
+
+### Techniques Applied
+
+#### 1. Signal Design
+
+A composite governance readiness score is calculated by averaging metadata completeness, ownership coverage, stewardship coverage, and the inverse of documentation gaps.
+
+Each component receives equal weight, and higher scores indicate greater readiness.
+
+#### 2. Anomaly Detection
+
+Weekly measurements are evaluated against illustrative readiness thresholds.
+
+| Metric | Threshold | Anomaly condition |
+|---|---:|---|
+| Metadata completeness | 60% | Below threshold |
+| Ownership coverage | 75% | Below threshold |
+| Stewardship coverage | 70% | Below threshold |
+| Documentation gaps | 35% | Above threshold |
+
+#### 3. Rolling Monitoring
+
+Five-week rolling averages are calculated for the four governance metrics to smooth short-term fluctuations and support trend analysis.
+
+#### 4. Drift Detection
+
+The first six observations are compared with the most recent six observations.
+
+A 20-percentage-point threshold identifies meaningful changes. Drift direction is evaluated separately to distinguish improvement from decline.
+
+#### 5. Governance Readiness Assessment
+
+The integrated pipeline evaluates the latest threshold violations and meaningful declining drift.
+
+- **READY:** No current threshold violations or declining flagged drift.
+- **NEEDS ATTENTION:** One or two current threshold violations, or meaningful declining drift.
+- **AT RISK:** Three or more current threshold violations.
+
+These rules are illustrative and require stakeholder validation before operational use.
+
+### Results
+
+The integrated pipeline successfully processed 12 weekly observations and generated the following assessment.
+
+| Measurement | Result |
+|---|---:|
+| Latest observation | November 9, 2026 |
+| Governance readiness score | 73.34 |
+| Current anomalies | 0 |
+| Drift flags | 3 of 4 |
+| Declining drift | 0 |
+| Governance state | READY |
+
+#### Drift Comparison
+
+| Governance metric | Reference mean | Current mean | Change | Drift |
+|---|---:|---:|---:|---|
+| Metadata completeness | 25.28% | 51.39% | +26.11 pp | Yes |
+| Ownership coverage | 65.28% | 87.78% | +22.50 pp | Yes |
+| Stewardship coverage | 49.72% | 65.83% | +16.11 pp | No |
+| Documentation gaps | 64.72% | 42.50% | -22.22 pp | Yes |
+
+All four metrics moved in a favorable direction.
+
+### Interpretation
+
+The integrated assessment classified governance readiness as READY based on the latest observations and configured rules.
+
+Although three metrics exceeded the drift threshold, their changes represented improvement rather than declining performance.
+
+This demonstrates why meaningful change should be evaluated alongside direction, operational expectations, and business context.
+
+### Verification
+
+The pipeline executed successfully and generated three evidence artifacts:
+
+- `artifacts/governance_integrated_weekly.csv`
+- `artifacts/governance_integrated_drift.csv`
+- `artifacts/governance_integrated_assessment.csv`
+
+Automated testing completed successfully with **7 passing tests and 53.21% overall code coverage**.
+
+### Limitations and Next Steps
+
+The analysis uses synthetic data covering only 12 weeks. The readiness thresholds, composite score weights, and classification rules are illustrative rather than validated organizational standards.
+
+Future improvements could include stakeholder-approved thresholds, actual governed metadata sources, longer observation periods, and persistent alerting.
+
+The next development stage will integrate the results into an interactive Marimo dashboard with monitoring visualizations and adjustable controls.

@@ -1,0 +1,721 @@
+week,asset_id,dataset_name,department,data_owner,data_steward,description,business_definition,data_classification
+2026-08-24,A001,Patient Encounters,Clinical Analytics,Missing,Assigned,Missing,Missing,Confidential
+2026-08-24,A002,Emergency Visits,Clinical Analytics,Missing,Assigned,Missing,Complete,Confidential
+2026-08-24,A003,Outpatient Appointments,Clinical Analytics,Assigned,Missing,Missing,Missing,Confidential
+2026-08-24,A004,Clinical Orders,Clinical Analytics,Missing,Missing,Complete,Missing,Confidential
+2026-08-24,A005,Inpatient Admissions,Clinical Analytics,Missing,Missing,Missing,Missing,Confidential
+2026-08-24,A006,Patient Transfers,Clinical Analytics,Missing,Assigned,Missing,Missing,Missing
+2026-08-24,A007,Clinical Procedures,Clinical Analytics,Assigned,Assigned,Complete,Missing,Confidential
+2026-08-24,A008,Medication Administration,Clinical Analytics,Assigned,Missing,Complete,Missing,Confidential
+2026-08-24,A009,Discharge Records,Clinical Analytics,Missing,Missing,Complete,Missing,Missing
+2026-08-24,A010,Provider Encounters,Clinical Analytics,Missing,Assigned,Missing,Missing,Missing
+2026-08-24,A011,Clinical Documentation,Clinical Analytics,Assigned,Assigned,Missing,Missing,Confidential
+2026-08-24,A012,Referral Tracking,Clinical Analytics,Assigned,Assigned,Complete,Complete,Missing
+2026-08-24,A013,Billing Transactions,Revenue Cycle,Assigned,Assigned,Missing,Complete,Confidential
+2026-08-24,A014,Claims Processing,Revenue Cycle,Assigned,Missing,Missing,Complete,Confidential
+2026-08-24,A015,Insurance Verification,Revenue Cycle,Assigned,Missing,Complete,Complete,Missing
+2026-08-24,A016,Payment Posting,Revenue Cycle,Assigned,Assigned,Missing,Complete,Missing
+2026-08-24,A017,Denial Management,Revenue Cycle,Assigned,Missing,Missing,Missing,Confidential
+2026-08-24,A018,Charge Capture,Revenue Cycle,Assigned,Missing,Missing,Missing,Confidential
+2026-08-24,A019,Accounts Receivable,Revenue Cycle,Assigned,Assigned,Complete,Complete,Confidential
+2026-08-24,A020,Revenue Forecasting,Revenue Cycle,Assigned,Assigned,Complete,Complete,Internal
+2026-08-24,A021,Patient Estimates,Revenue Cycle,Missing,Missing,Complete,Missing,Missing
+2026-08-24,A022,Contract Management,Revenue Cycle,Assigned,Assigned,Missing,Complete,Missing
+2026-08-24,A023,Collections Reporting,Revenue Cycle,Assigned,Missing,Complete,Missing,Confidential
+2026-08-24,A024,Financial Adjustments,Revenue Cycle,Assigned,Assigned,Missing,Complete,Missing
+2026-08-24,A025,Stroke Quality Measures,Quality Improvement,Missing,Missing,Complete,Missing,Missing
+2026-08-24,A026,Patient Safety Events,Quality Improvement,Assigned,Assigned,Missing,Complete,Missing
+2026-08-24,A027,Readmission Measures,Quality Improvement,Assigned,Missing,Complete,Missing,Confidential
+2026-08-24,A028,Infection Surveillance,Quality Improvement,Assigned,Assigned,Missing,Missing,Confidential
+2026-08-24,A029,Quality Scorecards,Quality Improvement,Assigned,Assigned,Complete,Missing,Internal
+2026-08-24,A030,Clinical Outcomes,Quality Improvement,Assigned,Assigned,Missing,Complete,Confidential
+2026-08-24,A031,Performance Improvement,Quality Improvement,Assigned,Assigned,Complete,Complete,Internal
+2026-08-24,A032,Regulatory Measures,Quality Improvement,Assigned,Assigned,Complete,Complete,Missing
+2026-08-24,A033,Patient Experience,Quality Improvement,Assigned,Missing,Complete,Complete,Confidential
+2026-08-24,A034,Quality Audits,Quality Improvement,Assigned,Missing,Missing,Missing,Missing
+2026-08-24,A035,Compliance Tracking,Quality Improvement,Assigned,Assigned,Complete,Missing,Missing
+2026-08-24,A036,Improvement Projects,Quality Improvement,Assigned,Missing,Missing,Missing,Internal
+2026-08-24,A037,Medical Record Index,Health Information Management,Assigned,Missing,Missing,Complete,Missing
+2026-08-24,A038,Release of Information,Health Information Management,Missing,Assigned,Complete,Missing,Confidential
+2026-08-24,A039,Document Imaging,Health Information Management,Assigned,Missing,Complete,Missing,Confidential
+2026-08-24,A040,Record Completion,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-08-24,A041,Coding Audits,Health Information Management,Assigned,Assigned,Complete,Complete,Missing
+2026-08-24,A042,Diagnosis Coding,Health Information Management,Missing,Missing,Missing,Missing,Confidential
+2026-08-24,A043,Procedure Coding,Health Information Management,Missing,Assigned,Complete,Complete,Confidential
+2026-08-24,A044,Record Retention,Health Information Management,Missing,Assigned,Complete,Complete,Internal
+2026-08-24,A045,Documentation Deficiencies,Health Information Management,Missing,Missing,Missing,Missing,Confidential
+2026-08-24,A046,Chart Corrections,Health Information Management,Assigned,Assigned,Complete,Complete,Missing
+2026-08-24,A047,Abstracting Records,Health Information Management,Missing,Missing,Complete,Missing,Confidential
+2026-08-24,A048,Privacy Requests,Health Information Management,Missing,Assigned,Complete,Missing,Confidential
+2026-08-24,A049,Employee Directory,Human Resources,Assigned,Missing,Complete,Complete,Internal
+2026-08-24,A050,Training Records,Human Resources,Missing,Assigned,Complete,Missing,Internal
+2026-08-24,A051,Recruitment Tracking,Human Resources,Assigned,Missing,Missing,Missing,Internal
+2026-08-24,A052,Employee Benefits,Human Resources,Missing,Assigned,Complete,Missing,Missing
+2026-08-24,A053,Performance Reviews,Human Resources,Assigned,Missing,Missing,Missing,Confidential
+2026-08-24,A054,Workforce Planning,Human Resources,Missing,Assigned,Complete,Missing,Internal
+2026-08-24,A055,Staff Scheduling,Human Resources,Missing,Missing,Complete,Missing,Internal
+2026-08-24,A056,Employee Onboarding,Human Resources,Missing,Assigned,Complete,Complete,Internal
+2026-08-24,A057,Position Management,Human Resources,Missing,Missing,Missing,Missing,Internal
+2026-08-24,A058,Employee Relations,Human Resources,Missing,Missing,Complete,Complete,Missing
+2026-08-24,A059,Learning Management,Human Resources,Missing,Missing,Complete,Complete,Internal
+2026-08-24,A060,Exit Interviews,Human Resources,Missing,Missing,Missing,Missing,Confidential
+2026-08-31,A001,Patient Encounters,Clinical Analytics,Missing,Missing,Complete,Complete,Confidential
+2026-08-31,A002,Emergency Visits,Clinical Analytics,Assigned,Assigned,Missing,Missing,Confidential
+2026-08-31,A003,Outpatient Appointments,Clinical Analytics,Assigned,Missing,Missing,Complete,Confidential
+2026-08-31,A004,Clinical Orders,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-08-31,A005,Inpatient Admissions,Clinical Analytics,Missing,Assigned,Complete,Missing,Missing
+2026-08-31,A006,Patient Transfers,Clinical Analytics,Assigned,Missing,Missing,Missing,Missing
+2026-08-31,A007,Clinical Procedures,Clinical Analytics,Assigned,Missing,Missing,Missing,Missing
+2026-08-31,A008,Medication Administration,Clinical Analytics,Assigned,Missing,Missing,Complete,Confidential
+2026-08-31,A009,Discharge Records,Clinical Analytics,Missing,Missing,Complete,Missing,Confidential
+2026-08-31,A010,Provider Encounters,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-08-31,A011,Clinical Documentation,Clinical Analytics,Missing,Missing,Missing,Missing,Confidential
+2026-08-31,A012,Referral Tracking,Clinical Analytics,Assigned,Missing,Missing,Missing,Missing
+2026-08-31,A013,Billing Transactions,Revenue Cycle,Assigned,Assigned,Complete,Complete,Confidential
+2026-08-31,A014,Claims Processing,Revenue Cycle,Assigned,Assigned,Missing,Missing,Missing
+2026-08-31,A015,Insurance Verification,Revenue Cycle,Assigned,Missing,Complete,Complete,Confidential
+2026-08-31,A016,Payment Posting,Revenue Cycle,Missing,Assigned,Complete,Missing,Confidential
+2026-08-31,A017,Denial Management,Revenue Cycle,Assigned,Missing,Missing,Missing,Confidential
+2026-08-31,A018,Charge Capture,Revenue Cycle,Missing,Missing,Missing,Missing,Confidential
+2026-08-31,A019,Accounts Receivable,Revenue Cycle,Missing,Assigned,Missing,Complete,Confidential
+2026-08-31,A020,Revenue Forecasting,Revenue Cycle,Missing,Assigned,Missing,Missing,Missing
+2026-08-31,A021,Patient Estimates,Revenue Cycle,Missing,Missing,Complete,Missing,Confidential
+2026-08-31,A022,Contract Management,Revenue Cycle,Assigned,Assigned,Complete,Missing,Missing
+2026-08-31,A023,Collections Reporting,Revenue Cycle,Assigned,Missing,Missing,Missing,Missing
+2026-08-31,A024,Financial Adjustments,Revenue Cycle,Assigned,Missing,Complete,Complete,Internal
+2026-08-31,A025,Stroke Quality Measures,Quality Improvement,Assigned,Assigned,Missing,Complete,Confidential
+2026-08-31,A026,Patient Safety Events,Quality Improvement,Assigned,Missing,Complete,Missing,Missing
+2026-08-31,A027,Readmission Measures,Quality Improvement,Assigned,Missing,Missing,Complete,Confidential
+2026-08-31,A028,Infection Surveillance,Quality Improvement,Missing,Assigned,Missing,Complete,Confidential
+2026-08-31,A029,Quality Scorecards,Quality Improvement,Assigned,Missing,Complete,Complete,Missing
+2026-08-31,A030,Clinical Outcomes,Quality Improvement,Missing,Missing,Complete,Complete,Missing
+2026-08-31,A031,Performance Improvement,Quality Improvement,Missing,Assigned,Missing,Complete,Internal
+2026-08-31,A032,Regulatory Measures,Quality Improvement,Assigned,Missing,Complete,Complete,Missing
+2026-08-31,A033,Patient Experience,Quality Improvement,Assigned,Missing,Complete,Complete,Confidential
+2026-08-31,A034,Quality Audits,Quality Improvement,Assigned,Missing,Complete,Missing,Internal
+2026-08-31,A035,Compliance Tracking,Quality Improvement,Assigned,Assigned,Missing,Complete,Internal
+2026-08-31,A036,Improvement Projects,Quality Improvement,Assigned,Assigned,Complete,Missing,Internal
+2026-08-31,A037,Medical Record Index,Health Information Management,Assigned,Assigned,Complete,Complete,Missing
+2026-08-31,A038,Release of Information,Health Information Management,Missing,Assigned,Complete,Complete,Missing
+2026-08-31,A039,Document Imaging,Health Information Management,Missing,Missing,Complete,Missing,Missing
+2026-08-31,A040,Record Completion,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-08-31,A041,Coding Audits,Health Information Management,Assigned,Missing,Complete,Complete,Confidential
+2026-08-31,A042,Diagnosis Coding,Health Information Management,Assigned,Missing,Complete,Missing,Confidential
+2026-08-31,A043,Procedure Coding,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-08-31,A044,Record Retention,Health Information Management,Missing,Missing,Missing,Complete,Internal
+2026-08-31,A045,Documentation Deficiencies,Health Information Management,Missing,Missing,Missing,Missing,Confidential
+2026-08-31,A046,Chart Corrections,Health Information Management,Assigned,Missing,Complete,Complete,Confidential
+2026-08-31,A047,Abstracting Records,Health Information Management,Assigned,Missing,Complete,Missing,Confidential
+2026-08-31,A048,Privacy Requests,Health Information Management,Assigned,Missing,Complete,Missing,Confidential
+2026-08-31,A049,Employee Directory,Human Resources,Missing,Assigned,Complete,Complete,Internal
+2026-08-31,A050,Training Records,Human Resources,Missing,Missing,Missing,Complete,Internal
+2026-08-31,A051,Recruitment Tracking,Human Resources,Assigned,Missing,Complete,Missing,Internal
+2026-08-31,A052,Employee Benefits,Human Resources,Assigned,Assigned,Complete,Complete,Confidential
+2026-08-31,A053,Performance Reviews,Human Resources,Assigned,Missing,Missing,Missing,Missing
+2026-08-31,A054,Workforce Planning,Human Resources,Assigned,Missing,Missing,Complete,Internal
+2026-08-31,A055,Staff Scheduling,Human Resources,Missing,Missing,Complete,Missing,Internal
+2026-08-31,A056,Employee Onboarding,Human Resources,Missing,Assigned,Missing,Complete,Internal
+2026-08-31,A057,Position Management,Human Resources,Missing,Missing,Complete,Missing,Missing
+2026-08-31,A058,Employee Relations,Human Resources,Assigned,Missing,Missing,Complete,Missing
+2026-08-31,A059,Learning Management,Human Resources,Assigned,Assigned,Missing,Missing,Missing
+2026-08-31,A060,Exit Interviews,Human Resources,Missing,Missing,Missing,Complete,Confidential
+2026-09-07,A001,Patient Encounters,Clinical Analytics,Assigned,Assigned,Missing,Missing,Missing
+2026-09-07,A002,Emergency Visits,Clinical Analytics,Assigned,Missing,Complete,Complete,Confidential
+2026-09-07,A003,Outpatient Appointments,Clinical Analytics,Assigned,Missing,Complete,Missing,Confidential
+2026-09-07,A004,Clinical Orders,Clinical Analytics,Missing,Assigned,Missing,Complete,Confidential
+2026-09-07,A005,Inpatient Admissions,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-09-07,A006,Patient Transfers,Clinical Analytics,Assigned,Missing,Missing,Missing,Missing
+2026-09-07,A007,Clinical Procedures,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-09-07,A008,Medication Administration,Clinical Analytics,Assigned,Assigned,Complete,Complete,Missing
+2026-09-07,A009,Discharge Records,Clinical Analytics,Missing,Assigned,Missing,Missing,Confidential
+2026-09-07,A010,Provider Encounters,Clinical Analytics,Missing,Assigned,Complete,Complete,Confidential
+2026-09-07,A011,Clinical Documentation,Clinical Analytics,Assigned,Missing,Missing,Missing,Confidential
+2026-09-07,A012,Referral Tracking,Clinical Analytics,Assigned,Assigned,Missing,Complete,Missing
+2026-09-07,A013,Billing Transactions,Revenue Cycle,Assigned,Assigned,Complete,Complete,Missing
+2026-09-07,A014,Claims Processing,Revenue Cycle,Assigned,Assigned,Complete,Complete,Confidential
+2026-09-07,A015,Insurance Verification,Revenue Cycle,Assigned,Missing,Complete,Complete,Confidential
+2026-09-07,A016,Payment Posting,Revenue Cycle,Missing,Missing,Complete,Complete,Confidential
+2026-09-07,A017,Denial Management,Revenue Cycle,Missing,Missing,Complete,Missing,Confidential
+2026-09-07,A018,Charge Capture,Revenue Cycle,Assigned,Missing,Missing,Missing,Missing
+2026-09-07,A019,Accounts Receivable,Revenue Cycle,Assigned,Missing,Missing,Complete,Missing
+2026-09-07,A020,Revenue Forecasting,Revenue Cycle,Assigned,Assigned,Missing,Missing,Internal
+2026-09-07,A021,Patient Estimates,Revenue Cycle,Missing,Missing,Complete,Missing,Confidential
+2026-09-07,A022,Contract Management,Revenue Cycle,Assigned,Assigned,Complete,Complete,Internal
+2026-09-07,A023,Collections Reporting,Revenue Cycle,Assigned,Missing,Missing,Missing,Confidential
+2026-09-07,A024,Financial Adjustments,Revenue Cycle,Assigned,Missing,Missing,Missing,Internal
+2026-09-07,A025,Stroke Quality Measures,Quality Improvement,Missing,Assigned,Complete,Complete,Confidential
+2026-09-07,A026,Patient Safety Events,Quality Improvement,Missing,Assigned,Complete,Complete,Confidential
+2026-09-07,A027,Readmission Measures,Quality Improvement,Assigned,Missing,Missing,Missing,Confidential
+2026-09-07,A028,Infection Surveillance,Quality Improvement,Assigned,Missing,Complete,Complete,Missing
+2026-09-07,A029,Quality Scorecards,Quality Improvement,Assigned,Missing,Complete,Missing,Missing
+2026-09-07,A030,Clinical Outcomes,Quality Improvement,Missing,Assigned,Missing,Complete,Confidential
+2026-09-07,A031,Performance Improvement,Quality Improvement,Assigned,Assigned,Missing,Missing,Internal
+2026-09-07,A032,Regulatory Measures,Quality Improvement,Assigned,Assigned,Complete,Complete,Missing
+2026-09-07,A033,Patient Experience,Quality Improvement,Assigned,Missing,Complete,Complete,Confidential
+2026-09-07,A034,Quality Audits,Quality Improvement,Assigned,Assigned,Complete,Missing,Missing
+2026-09-07,A035,Compliance Tracking,Quality Improvement,Assigned,Missing,Complete,Missing,Internal
+2026-09-07,A036,Improvement Projects,Quality Improvement,Assigned,Missing,Missing,Complete,Missing
+2026-09-07,A037,Medical Record Index,Health Information Management,Missing,Assigned,Missing,Complete,Confidential
+2026-09-07,A038,Release of Information,Health Information Management,Assigned,Missing,Missing,Complete,Confidential
+2026-09-07,A039,Document Imaging,Health Information Management,Assigned,Missing,Missing,Missing,Confidential
+2026-09-07,A040,Record Completion,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-09-07,A041,Coding Audits,Health Information Management,Missing,Assigned,Missing,Missing,Missing
+2026-09-07,A042,Diagnosis Coding,Health Information Management,Assigned,Missing,Complete,Missing,Confidential
+2026-09-07,A043,Procedure Coding,Health Information Management,Missing,Assigned,Missing,Complete,Confidential
+2026-09-07,A044,Record Retention,Health Information Management,Missing,Missing,Complete,Missing,Missing
+2026-09-07,A045,Documentation Deficiencies,Health Information Management,Missing,Missing,Missing,Missing,Missing
+2026-09-07,A046,Chart Corrections,Health Information Management,Assigned,Assigned,Complete,Complete,Missing
+2026-09-07,A047,Abstracting Records,Health Information Management,Missing,Missing,Missing,Missing,Confidential
+2026-09-07,A048,Privacy Requests,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-09-07,A049,Employee Directory,Human Resources,Missing,Assigned,Complete,Complete,Internal
+2026-09-07,A050,Training Records,Human Resources,Assigned,Assigned,Missing,Complete,Missing
+2026-09-07,A051,Recruitment Tracking,Human Resources,Assigned,Missing,Complete,Missing,Missing
+2026-09-07,A052,Employee Benefits,Human Resources,Assigned,Assigned,Missing,Missing,Confidential
+2026-09-07,A053,Performance Reviews,Human Resources,Assigned,Missing,Complete,Missing,Confidential
+2026-09-07,A054,Workforce Planning,Human Resources,Assigned,Missing,Missing,Missing,Internal
+2026-09-07,A055,Staff Scheduling,Human Resources,Assigned,Missing,Complete,Missing,Internal
+2026-09-07,A056,Employee Onboarding,Human Resources,Missing,Assigned,Missing,Complete,Internal
+2026-09-07,A057,Position Management,Human Resources,Missing,Missing,Missing,Missing,Internal
+2026-09-07,A058,Employee Relations,Human Resources,Assigned,Missing,Complete,Missing,Confidential
+2026-09-07,A059,Learning Management,Human Resources,Assigned,Assigned,Missing,Missing,Internal
+2026-09-07,A060,Exit Interviews,Human Resources,Missing,Missing,Missing,Missing,Confidential
+2026-09-14,A001,Patient Encounters,Clinical Analytics,Assigned,Assigned,Missing,Complete,Confidential
+2026-09-14,A002,Emergency Visits,Clinical Analytics,Assigned,Missing,Missing,Complete,Missing
+2026-09-14,A003,Outpatient Appointments,Clinical Analytics,Assigned,Missing,Complete,Missing,Missing
+2026-09-14,A004,Clinical Orders,Clinical Analytics,Assigned,Assigned,Missing,Complete,Confidential
+2026-09-14,A005,Inpatient Admissions,Clinical Analytics,Assigned,Assigned,Complete,Missing,Confidential
+2026-09-14,A006,Patient Transfers,Clinical Analytics,Assigned,Missing,Missing,Missing,Missing
+2026-09-14,A007,Clinical Procedures,Clinical Analytics,Assigned,Assigned,Complete,Missing,Confidential
+2026-09-14,A008,Medication Administration,Clinical Analytics,Assigned,Assigned,Complete,Missing,Missing
+2026-09-14,A009,Discharge Records,Clinical Analytics,Missing,Missing,Complete,Missing,Confidential
+2026-09-14,A010,Provider Encounters,Clinical Analytics,Assigned,Missing,Complete,Complete,Missing
+2026-09-14,A011,Clinical Documentation,Clinical Analytics,Missing,Missing,Missing,Missing,Confidential
+2026-09-14,A012,Referral Tracking,Clinical Analytics,Assigned,Assigned,Complete,Missing,Missing
+2026-09-14,A013,Billing Transactions,Revenue Cycle,Assigned,Assigned,Missing,Missing,Confidential
+2026-09-14,A014,Claims Processing,Revenue Cycle,Missing,Missing,Missing,Missing,Confidential
+2026-09-14,A015,Insurance Verification,Revenue Cycle,Assigned,Missing,Missing,Complete,Missing
+2026-09-14,A016,Payment Posting,Revenue Cycle,Assigned,Missing,Complete,Complete,Confidential
+2026-09-14,A017,Denial Management,Revenue Cycle,Assigned,Missing,Missing,Missing,Confidential
+2026-09-14,A018,Charge Capture,Revenue Cycle,Assigned,Missing,Missing,Missing,Confidential
+2026-09-14,A019,Accounts Receivable,Revenue Cycle,Assigned,Missing,Complete,Missing,Missing
+2026-09-14,A020,Revenue Forecasting,Revenue Cycle,Assigned,Assigned,Complete,Complete,Internal
+2026-09-14,A021,Patient Estimates,Revenue Cycle,Missing,Missing,Complete,Missing,Confidential
+2026-09-14,A022,Contract Management,Revenue Cycle,Assigned,Assigned,Complete,Complete,Internal
+2026-09-14,A023,Collections Reporting,Revenue Cycle,Assigned,Missing,Missing,Missing,Confidential
+2026-09-14,A024,Financial Adjustments,Revenue Cycle,Assigned,Assigned,Complete,Complete,Internal
+2026-09-14,A025,Stroke Quality Measures,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-09-14,A026,Patient Safety Events,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-09-14,A027,Readmission Measures,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-09-14,A028,Infection Surveillance,Quality Improvement,Missing,Assigned,Complete,Complete,Missing
+2026-09-14,A029,Quality Scorecards,Quality Improvement,Assigned,Assigned,Missing,Complete,Internal
+2026-09-14,A030,Clinical Outcomes,Quality Improvement,Missing,Missing,Complete,Complete,Confidential
+2026-09-14,A031,Performance Improvement,Quality Improvement,Assigned,Assigned,Complete,Missing,Internal
+2026-09-14,A032,Regulatory Measures,Quality Improvement,Assigned,Missing,Complete,Missing,Missing
+2026-09-14,A033,Patient Experience,Quality Improvement,Missing,Missing,Complete,Complete,Missing
+2026-09-14,A034,Quality Audits,Quality Improvement,Assigned,Assigned,Complete,Missing,Internal
+2026-09-14,A035,Compliance Tracking,Quality Improvement,Missing,Assigned,Complete,Missing,Internal
+2026-09-14,A036,Improvement Projects,Quality Improvement,Missing,Assigned,Complete,Complete,Missing
+2026-09-14,A037,Medical Record Index,Health Information Management,Missing,Missing,Complete,Complete,Confidential
+2026-09-14,A038,Release of Information,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-09-14,A039,Document Imaging,Health Information Management,Assigned,Missing,Complete,Missing,Confidential
+2026-09-14,A040,Record Completion,Health Information Management,Assigned,Missing,Complete,Complete,Confidential
+2026-09-14,A041,Coding Audits,Health Information Management,Assigned,Assigned,Missing,Complete,Confidential
+2026-09-14,A042,Diagnosis Coding,Health Information Management,Missing,Missing,Complete,Missing,Confidential
+2026-09-14,A043,Procedure Coding,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-09-14,A044,Record Retention,Health Information Management,Missing,Missing,Missing,Complete,Internal
+2026-09-14,A045,Documentation Deficiencies,Health Information Management,Missing,Missing,Missing,Missing,Confidential
+2026-09-14,A046,Chart Corrections,Health Information Management,Missing,Missing,Complete,Complete,Confidential
+2026-09-14,A047,Abstracting Records,Health Information Management,Missing,Missing,Complete,Missing,Confidential
+2026-09-14,A048,Privacy Requests,Health Information Management,Missing,Assigned,Complete,Complete,Confidential
+2026-09-14,A049,Employee Directory,Human Resources,Assigned,Missing,Complete,Complete,Internal
+2026-09-14,A050,Training Records,Human Resources,Missing,Assigned,Complete,Complete,Internal
+2026-09-14,A051,Recruitment Tracking,Human Resources,Assigned,Missing,Complete,Missing,Internal
+2026-09-14,A052,Employee Benefits,Human Resources,Assigned,Assigned,Complete,Missing,Confidential
+2026-09-14,A053,Performance Reviews,Human Resources,Assigned,Missing,Missing,Missing,Confidential
+2026-09-14,A054,Workforce Planning,Human Resources,Assigned,Missing,Complete,Complete,Internal
+2026-09-14,A055,Staff Scheduling,Human Resources,Assigned,Missing,Complete,Missing,Internal
+2026-09-14,A056,Employee Onboarding,Human Resources,Assigned,Assigned,Complete,Missing,Internal
+2026-09-14,A057,Position Management,Human Resources,Missing,Missing,Missing,Missing,Missing
+2026-09-14,A058,Employee Relations,Human Resources,Assigned,Missing,Missing,Missing,Confidential
+2026-09-14,A059,Learning Management,Human Resources,Missing,Missing,Missing,Complete,Internal
+2026-09-14,A060,Exit Interviews,Human Resources,Missing,Missing,Missing,Missing,Confidential
+2026-09-21,A001,Patient Encounters,Clinical Analytics,Assigned,Assigned,Missing,Missing,Confidential
+2026-09-21,A002,Emergency Visits,Clinical Analytics,Missing,Missing,Complete,Missing,Confidential
+2026-09-21,A003,Outpatient Appointments,Clinical Analytics,Assigned,Missing,Complete,Missing,Confidential
+2026-09-21,A004,Clinical Orders,Clinical Analytics,Missing,Assigned,Complete,Missing,Confidential
+2026-09-21,A005,Inpatient Admissions,Clinical Analytics,Assigned,Assigned,Complete,Missing,Missing
+2026-09-21,A006,Patient Transfers,Clinical Analytics,Assigned,Missing,Missing,Missing,Missing
+2026-09-21,A007,Clinical Procedures,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-09-21,A008,Medication Administration,Clinical Analytics,Assigned,Assigned,Missing,Complete,Confidential
+2026-09-21,A009,Discharge Records,Clinical Analytics,Missing,Assigned,Missing,Missing,Confidential
+2026-09-21,A010,Provider Encounters,Clinical Analytics,Missing,Assigned,Missing,Complete,Confidential
+2026-09-21,A011,Clinical Documentation,Clinical Analytics,Missing,Missing,Missing,Missing,Confidential
+2026-09-21,A012,Referral Tracking,Clinical Analytics,Assigned,Missing,Complete,Complete,Missing
+2026-09-21,A013,Billing Transactions,Revenue Cycle,Assigned,Missing,Missing,Missing,Confidential
+2026-09-21,A014,Claims Processing,Revenue Cycle,Missing,Assigned,Complete,Complete,Confidential
+2026-09-21,A015,Insurance Verification,Revenue Cycle,Assigned,Missing,Complete,Complete,Confidential
+2026-09-21,A016,Payment Posting,Revenue Cycle,Assigned,Assigned,Complete,Missing,Confidential
+2026-09-21,A017,Denial Management,Revenue Cycle,Assigned,Assigned,Complete,Missing,Confidential
+2026-09-21,A018,Charge Capture,Revenue Cycle,Assigned,Missing,Missing,Complete,Confidential
+2026-09-21,A019,Accounts Receivable,Revenue Cycle,Assigned,Missing,Complete,Complete,Confidential
+2026-09-21,A020,Revenue Forecasting,Revenue Cycle,Missing,Missing,Complete,Complete,Missing
+2026-09-21,A021,Patient Estimates,Revenue Cycle,Missing,Missing,Complete,Missing,Confidential
+2026-09-21,A022,Contract Management,Revenue Cycle,Assigned,Assigned,Complete,Missing,Internal
+2026-09-21,A023,Collections Reporting,Revenue Cycle,Assigned,Missing,Missing,Missing,Confidential
+2026-09-21,A024,Financial Adjustments,Revenue Cycle,Assigned,Assigned,Complete,Complete,Internal
+2026-09-21,A025,Stroke Quality Measures,Quality Improvement,Assigned,Assigned,Complete,Complete,Missing
+2026-09-21,A026,Patient Safety Events,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-09-21,A027,Readmission Measures,Quality Improvement,Missing,Assigned,Missing,Complete,Missing
+2026-09-21,A028,Infection Surveillance,Quality Improvement,Missing,Assigned,Complete,Complete,Confidential
+2026-09-21,A029,Quality Scorecards,Quality Improvement,Assigned,Missing,Complete,Complete,Missing
+2026-09-21,A030,Clinical Outcomes,Quality Improvement,Assigned,Assigned,Missing,Complete,Confidential
+2026-09-21,A031,Performance Improvement,Quality Improvement,Assigned,Assigned,Complete,Complete,Missing
+2026-09-21,A032,Regulatory Measures,Quality Improvement,Assigned,Assigned,Missing,Missing,Missing
+2026-09-21,A033,Patient Experience,Quality Improvement,Assigned,Missing,Complete,Complete,Confidential
+2026-09-21,A034,Quality Audits,Quality Improvement,Assigned,Assigned,Complete,Missing,Internal
+2026-09-21,A035,Compliance Tracking,Quality Improvement,Assigned,Assigned,Complete,Missing,Internal
+2026-09-21,A036,Improvement Projects,Quality Improvement,Assigned,Assigned,Complete,Missing,Internal
+2026-09-21,A037,Medical Record Index,Health Information Management,Assigned,Assigned,Complete,Missing,Confidential
+2026-09-21,A038,Release of Information,Health Information Management,Assigned,Assigned,Complete,Complete,Missing
+2026-09-21,A039,Document Imaging,Health Information Management,Missing,Missing,Complete,Missing,Confidential
+2026-09-21,A040,Record Completion,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-09-21,A041,Coding Audits,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-09-21,A042,Diagnosis Coding,Health Information Management,Assigned,Assigned,Complete,Missing,Confidential
+2026-09-21,A043,Procedure Coding,Health Information Management,Assigned,Missing,Complete,Complete,Missing
+2026-09-21,A044,Record Retention,Health Information Management,Assigned,Assigned,Complete,Complete,Internal
+2026-09-21,A045,Documentation Deficiencies,Health Information Management,Missing,Missing,Missing,Missing,Confidential
+2026-09-21,A046,Chart Corrections,Health Information Management,Missing,Assigned,Missing,Complete,Confidential
+2026-09-21,A047,Abstracting Records,Health Information Management,Assigned,Missing,Complete,Missing,Missing
+2026-09-21,A048,Privacy Requests,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-09-21,A049,Employee Directory,Human Resources,Missing,Missing,Complete,Complete,Missing
+2026-09-21,A050,Training Records,Human Resources,Assigned,Assigned,Missing,Missing,Missing
+2026-09-21,A051,Recruitment Tracking,Human Resources,Assigned,Missing,Missing,Missing,Internal
+2026-09-21,A052,Employee Benefits,Human Resources,Assigned,Assigned,Missing,Complete,Confidential
+2026-09-21,A053,Performance Reviews,Human Resources,Missing,Missing,Missing,Missing,Confidential
+2026-09-21,A054,Workforce Planning,Human Resources,Assigned,Missing,Complete,Complete,Internal
+2026-09-21,A055,Staff Scheduling,Human Resources,Assigned,Missing,Complete,Missing,Internal
+2026-09-21,A056,Employee Onboarding,Human Resources,Assigned,Assigned,Missing,Missing,Internal
+2026-09-21,A057,Position Management,Human Resources,Missing,Missing,Missing,Missing,Internal
+2026-09-21,A058,Employee Relations,Human Resources,Assigned,Missing,Complete,Missing,Confidential
+2026-09-21,A059,Learning Management,Human Resources,Missing,Missing,Complete,Complete,Internal
+2026-09-21,A060,Exit Interviews,Human Resources,Missing,Missing,Missing,Missing,Confidential
+2026-09-28,A001,Patient Encounters,Clinical Analytics,Missing,Assigned,Complete,Complete,Confidential
+2026-09-28,A002,Emergency Visits,Clinical Analytics,Assigned,Missing,Complete,Complete,Missing
+2026-09-28,A003,Outpatient Appointments,Clinical Analytics,Assigned,Missing,Complete,Missing,Confidential
+2026-09-28,A004,Clinical Orders,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-09-28,A005,Inpatient Admissions,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-09-28,A006,Patient Transfers,Clinical Analytics,Assigned,Assigned,Missing,Missing,Internal
+2026-09-28,A007,Clinical Procedures,Clinical Analytics,Missing,Assigned,Missing,Complete,Missing
+2026-09-28,A008,Medication Administration,Clinical Analytics,Assigned,Missing,Complete,Complete,Confidential
+2026-09-28,A009,Discharge Records,Clinical Analytics,Missing,Assigned,Complete,Missing,Missing
+2026-09-28,A010,Provider Encounters,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-09-28,A011,Clinical Documentation,Clinical Analytics,Missing,Missing,Missing,Missing,Confidential
+2026-09-28,A012,Referral Tracking,Clinical Analytics,Missing,Assigned,Complete,Complete,Missing
+2026-09-28,A013,Billing Transactions,Revenue Cycle,Assigned,Assigned,Complete,Complete,Missing
+2026-09-28,A014,Claims Processing,Revenue Cycle,Assigned,Assigned,Complete,Complete,Confidential
+2026-09-28,A015,Insurance Verification,Revenue Cycle,Assigned,Missing,Complete,Complete,Confidential
+2026-09-28,A016,Payment Posting,Revenue Cycle,Assigned,Missing,Complete,Complete,Missing
+2026-09-28,A017,Denial Management,Revenue Cycle,Assigned,Assigned,Complete,Missing,Confidential
+2026-09-28,A018,Charge Capture,Revenue Cycle,Assigned,Missing,Missing,Missing,Confidential
+2026-09-28,A019,Accounts Receivable,Revenue Cycle,Assigned,Assigned,Complete,Complete,Missing
+2026-09-28,A020,Revenue Forecasting,Revenue Cycle,Assigned,Assigned,Missing,Complete,Internal
+2026-09-28,A021,Patient Estimates,Revenue Cycle,Missing,Missing,Complete,Missing,Missing
+2026-09-28,A022,Contract Management,Revenue Cycle,Assigned,Assigned,Complete,Complete,Internal
+2026-09-28,A023,Collections Reporting,Revenue Cycle,Assigned,Missing,Missing,Missing,Confidential
+2026-09-28,A024,Financial Adjustments,Revenue Cycle,Assigned,Assigned,Complete,Complete,Internal
+2026-09-28,A025,Stroke Quality Measures,Quality Improvement,Assigned,Missing,Complete,Missing,Confidential
+2026-09-28,A026,Patient Safety Events,Quality Improvement,Assigned,Assigned,Complete,Missing,Missing
+2026-09-28,A027,Readmission Measures,Quality Improvement,Assigned,Missing,Missing,Complete,Confidential
+2026-09-28,A028,Infection Surveillance,Quality Improvement,Missing,Assigned,Complete,Complete,Confidential
+2026-09-28,A029,Quality Scorecards,Quality Improvement,Assigned,Assigned,Complete,Complete,Internal
+2026-09-28,A030,Clinical Outcomes,Quality Improvement,Missing,Assigned,Complete,Complete,Confidential
+2026-09-28,A031,Performance Improvement,Quality Improvement,Assigned,Assigned,Complete,Complete,Missing
+2026-09-28,A032,Regulatory Measures,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-09-28,A033,Patient Experience,Quality Improvement,Missing,Missing,Missing,Complete,Confidential
+2026-09-28,A034,Quality Audits,Quality Improvement,Assigned,Assigned,Complete,Missing,Internal
+2026-09-28,A035,Compliance Tracking,Quality Improvement,Assigned,Assigned,Complete,Complete,Internal
+2026-09-28,A036,Improvement Projects,Quality Improvement,Missing,Assigned,Missing,Complete,Internal
+2026-09-28,A037,Medical Record Index,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-09-28,A038,Release of Information,Health Information Management,Assigned,Assigned,Complete,Complete,Missing
+2026-09-28,A039,Document Imaging,Health Information Management,Missing,Missing,Complete,Missing,Missing
+2026-09-28,A040,Record Completion,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-09-28,A041,Coding Audits,Health Information Management,Assigned,Assigned,Missing,Complete,Confidential
+2026-09-28,A042,Diagnosis Coding,Health Information Management,Missing,Missing,Complete,Missing,Confidential
+2026-09-28,A043,Procedure Coding,Health Information Management,Missing,Assigned,Complete,Complete,Confidential
+2026-09-28,A044,Record Retention,Health Information Management,Missing,Assigned,Complete,Missing,Internal
+2026-09-28,A045,Documentation Deficiencies,Health Information Management,Assigned,Missing,Missing,Missing,Confidential
+2026-09-28,A046,Chart Corrections,Health Information Management,Assigned,Missing,Complete,Complete,Confidential
+2026-09-28,A047,Abstracting Records,Health Information Management,Assigned,Missing,Complete,Missing,Confidential
+2026-09-28,A048,Privacy Requests,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-09-28,A049,Employee Directory,Human Resources,Assigned,Assigned,Complete,Complete,Internal
+2026-09-28,A050,Training Records,Human Resources,Assigned,Assigned,Complete,Missing,Internal
+2026-09-28,A051,Recruitment Tracking,Human Resources,Assigned,Missing,Complete,Missing,Internal
+2026-09-28,A052,Employee Benefits,Human Resources,Assigned,Assigned,Complete,Complete,Missing
+2026-09-28,A053,Performance Reviews,Human Resources,Missing,Missing,Missing,Missing,Confidential
+2026-09-28,A054,Workforce Planning,Human Resources,Missing,Assigned,Complete,Complete,Internal
+2026-09-28,A055,Staff Scheduling,Human Resources,Missing,Assigned,Complete,Missing,Internal
+2026-09-28,A056,Employee Onboarding,Human Resources,Missing,Missing,Complete,Complete,Internal
+2026-09-28,A057,Position Management,Human Resources,Missing,Missing,Missing,Missing,Missing
+2026-09-28,A058,Employee Relations,Human Resources,Assigned,Missing,Missing,Missing,Confidential
+2026-09-28,A059,Learning Management,Human Resources,Missing,Assigned,Complete,Complete,Internal
+2026-09-28,A060,Exit Interviews,Human Resources,Missing,Missing,Missing,Missing,Confidential
+2026-10-05,A001,Patient Encounters,Clinical Analytics,Assigned,Missing,Complete,Complete,Confidential
+2026-10-05,A002,Emergency Visits,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-05,A003,Outpatient Appointments,Clinical Analytics,Assigned,Missing,Complete,Missing,Confidential
+2026-10-05,A004,Clinical Orders,Clinical Analytics,Assigned,Assigned,Complete,Complete,Missing
+2026-10-05,A005,Inpatient Admissions,Clinical Analytics,Assigned,Assigned,Missing,Missing,Confidential
+2026-10-05,A006,Patient Transfers,Clinical Analytics,Assigned,Missing,Missing,Missing,Missing
+2026-10-05,A007,Clinical Procedures,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-05,A008,Medication Administration,Clinical Analytics,Missing,Assigned,Complete,Complete,Missing
+2026-10-05,A009,Discharge Records,Clinical Analytics,Missing,Assigned,Complete,Missing,Confidential
+2026-10-05,A010,Provider Encounters,Clinical Analytics,Assigned,Assigned,Complete,Missing,Confidential
+2026-10-05,A011,Clinical Documentation,Clinical Analytics,Assigned,Missing,Missing,Missing,Missing
+2026-10-05,A012,Referral Tracking,Clinical Analytics,Assigned,Assigned,Missing,Complete,Missing
+2026-10-05,A013,Billing Transactions,Revenue Cycle,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-05,A014,Claims Processing,Revenue Cycle,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-05,A015,Insurance Verification,Revenue Cycle,Assigned,Missing,Complete,Missing,Confidential
+2026-10-05,A016,Payment Posting,Revenue Cycle,Assigned,Assigned,Missing,Complete,Confidential
+2026-10-05,A017,Denial Management,Revenue Cycle,Assigned,Assigned,Complete,Missing,Confidential
+2026-10-05,A018,Charge Capture,Revenue Cycle,Assigned,Missing,Missing,Missing,Confidential
+2026-10-05,A019,Accounts Receivable,Revenue Cycle,Assigned,Assigned,Complete,Complete,Missing
+2026-10-05,A020,Revenue Forecasting,Revenue Cycle,Assigned,Assigned,Complete,Complete,Internal
+2026-10-05,A021,Patient Estimates,Revenue Cycle,Missing,Missing,Complete,Missing,Confidential
+2026-10-05,A022,Contract Management,Revenue Cycle,Assigned,Assigned,Complete,Complete,Internal
+2026-10-05,A023,Collections Reporting,Revenue Cycle,Assigned,Missing,Complete,Missing,Confidential
+2026-10-05,A024,Financial Adjustments,Revenue Cycle,Assigned,Assigned,Complete,Complete,Internal
+2026-10-05,A025,Stroke Quality Measures,Quality Improvement,Assigned,Missing,Complete,Complete,Confidential
+2026-10-05,A026,Patient Safety Events,Quality Improvement,Assigned,Missing,Complete,Complete,Confidential
+2026-10-05,A027,Readmission Measures,Quality Improvement,Assigned,Assigned,Missing,Complete,Confidential
+2026-10-05,A028,Infection Surveillance,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-05,A029,Quality Scorecards,Quality Improvement,Assigned,Missing,Complete,Complete,Internal
+2026-10-05,A030,Clinical Outcomes,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-05,A031,Performance Improvement,Quality Improvement,Assigned,Assigned,Complete,Missing,Internal
+2026-10-05,A032,Regulatory Measures,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-05,A033,Patient Experience,Quality Improvement,Assigned,Missing,Complete,Complete,Confidential
+2026-10-05,A034,Quality Audits,Quality Improvement,Missing,Assigned,Complete,Missing,Internal
+2026-10-05,A035,Compliance Tracking,Quality Improvement,Assigned,Assigned,Complete,Complete,Internal
+2026-10-05,A036,Improvement Projects,Quality Improvement,Assigned,Assigned,Complete,Missing,Internal
+2026-10-05,A037,Medical Record Index,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-05,A038,Release of Information,Health Information Management,Missing,Assigned,Complete,Missing,Missing
+2026-10-05,A039,Document Imaging,Health Information Management,Assigned,Missing,Complete,Missing,Confidential
+2026-10-05,A040,Record Completion,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-05,A041,Coding Audits,Health Information Management,Assigned,Assigned,Complete,Complete,Missing
+2026-10-05,A042,Diagnosis Coding,Health Information Management,Assigned,Missing,Complete,Missing,Confidential
+2026-10-05,A043,Procedure Coding,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-05,A044,Record Retention,Health Information Management,Missing,Assigned,Complete,Complete,Internal
+2026-10-05,A045,Documentation Deficiencies,Health Information Management,Missing,Missing,Missing,Missing,Confidential
+2026-10-05,A046,Chart Corrections,Health Information Management,Assigned,Assigned,Complete,Missing,Confidential
+2026-10-05,A047,Abstracting Records,Health Information Management,Assigned,Missing,Complete,Missing,Confidential
+2026-10-05,A048,Privacy Requests,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-05,A049,Employee Directory,Human Resources,Assigned,Assigned,Missing,Complete,Internal
+2026-10-05,A050,Training Records,Human Resources,Assigned,Assigned,Complete,Complete,Missing
+2026-10-05,A051,Recruitment Tracking,Human Resources,Assigned,Missing,Complete,Missing,Internal
+2026-10-05,A052,Employee Benefits,Human Resources,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-05,A053,Performance Reviews,Human Resources,Assigned,Missing,Missing,Missing,Confidential
+2026-10-05,A054,Workforce Planning,Human Resources,Assigned,Assigned,Complete,Missing,Internal
+2026-10-05,A055,Staff Scheduling,Human Resources,Assigned,Missing,Complete,Missing,Internal
+2026-10-05,A056,Employee Onboarding,Human Resources,Missing,Assigned,Complete,Complete,Internal
+2026-10-05,A057,Position Management,Human Resources,Missing,Missing,Missing,Missing,Missing
+2026-10-05,A058,Employee Relations,Human Resources,Assigned,Missing,Complete,Missing,Missing
+2026-10-05,A059,Learning Management,Human Resources,Assigned,Assigned,Complete,Complete,Internal
+2026-10-05,A060,Exit Interviews,Human Resources,Missing,Missing,Missing,Missing,Missing
+2026-10-12,A001,Patient Encounters,Clinical Analytics,Assigned,Assigned,Complete,Complete,Missing
+2026-10-12,A002,Emergency Visits,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-12,A003,Outpatient Appointments,Clinical Analytics,Assigned,Missing,Missing,Missing,Confidential
+2026-10-12,A004,Clinical Orders,Clinical Analytics,Assigned,Missing,Complete,Complete,Confidential
+2026-10-12,A005,Inpatient Admissions,Clinical Analytics,Assigned,Assigned,Complete,Missing,Confidential
+2026-10-12,A006,Patient Transfers,Clinical Analytics,Assigned,Missing,Missing,Missing,Missing
+2026-10-12,A007,Clinical Procedures,Clinical Analytics,Assigned,Missing,Complete,Complete,Confidential
+2026-10-12,A008,Medication Administration,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-12,A009,Discharge Records,Clinical Analytics,Missing,Assigned,Complete,Missing,Confidential
+2026-10-12,A010,Provider Encounters,Clinical Analytics,Assigned,Assigned,Complete,Complete,Missing
+2026-10-12,A011,Clinical Documentation,Clinical Analytics,Assigned,Missing,Missing,Complete,Confidential
+2026-10-12,A012,Referral Tracking,Clinical Analytics,Assigned,Missing,Complete,Complete,Missing
+2026-10-12,A013,Billing Transactions,Revenue Cycle,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-12,A014,Claims Processing,Revenue Cycle,Assigned,Assigned,Missing,Complete,Confidential
+2026-10-12,A015,Insurance Verification,Revenue Cycle,Missing,Missing,Complete,Complete,Confidential
+2026-10-12,A016,Payment Posting,Revenue Cycle,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-12,A017,Denial Management,Revenue Cycle,Assigned,Assigned,Complete,Missing,Confidential
+2026-10-12,A018,Charge Capture,Revenue Cycle,Missing,Missing,Complete,Complete,Confidential
+2026-10-12,A019,Accounts Receivable,Revenue Cycle,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-12,A020,Revenue Forecasting,Revenue Cycle,Assigned,Assigned,Complete,Complete,Internal
+2026-10-12,A021,Patient Estimates,Revenue Cycle,Missing,Missing,Complete,Missing,Missing
+2026-10-12,A022,Contract Management,Revenue Cycle,Assigned,Missing,Complete,Complete,Internal
+2026-10-12,A023,Collections Reporting,Revenue Cycle,Assigned,Missing,Missing,Missing,Confidential
+2026-10-12,A024,Financial Adjustments,Revenue Cycle,Assigned,Assigned,Complete,Complete,Missing
+2026-10-12,A025,Stroke Quality Measures,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-12,A026,Patient Safety Events,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-12,A027,Readmission Measures,Quality Improvement,Assigned,Assigned,Complete,Missing,Confidential
+2026-10-12,A028,Infection Surveillance,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-12,A029,Quality Scorecards,Quality Improvement,Assigned,Assigned,Complete,Complete,Internal
+2026-10-12,A030,Clinical Outcomes,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-12,A031,Performance Improvement,Quality Improvement,Assigned,Missing,Complete,Complete,Internal
+2026-10-12,A032,Regulatory Measures,Quality Improvement,Assigned,Missing,Complete,Complete,Confidential
+2026-10-12,A033,Patient Experience,Quality Improvement,Assigned,Missing,Complete,Complete,Confidential
+2026-10-12,A034,Quality Audits,Quality Improvement,Assigned,Assigned,Complete,Missing,Internal
+2026-10-12,A035,Compliance Tracking,Quality Improvement,Assigned,Missing,Missing,Complete,Internal
+2026-10-12,A036,Improvement Projects,Quality Improvement,Assigned,Missing,Missing,Complete,Internal
+2026-10-12,A037,Medical Record Index,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-12,A038,Release of Information,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-12,A039,Document Imaging,Health Information Management,Assigned,Missing,Complete,Missing,Confidential
+2026-10-12,A040,Record Completion,Health Information Management,Assigned,Missing,Complete,Complete,Confidential
+2026-10-12,A041,Coding Audits,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-12,A042,Diagnosis Coding,Health Information Management,Assigned,Missing,Missing,Missing,Confidential
+2026-10-12,A043,Procedure Coding,Health Information Management,Assigned,Assigned,Missing,Complete,Confidential
+2026-10-12,A044,Record Retention,Health Information Management,Missing,Assigned,Complete,Missing,Internal
+2026-10-12,A045,Documentation Deficiencies,Health Information Management,Missing,Missing,Missing,Missing,Confidential
+2026-10-12,A046,Chart Corrections,Health Information Management,Assigned,Assigned,Missing,Complete,Confidential
+2026-10-12,A047,Abstracting Records,Health Information Management,Assigned,Missing,Complete,Missing,Confidential
+2026-10-12,A048,Privacy Requests,Health Information Management,Assigned,Assigned,Complete,Missing,Confidential
+2026-10-12,A049,Employee Directory,Human Resources,Assigned,Assigned,Complete,Complete,Internal
+2026-10-12,A050,Training Records,Human Resources,Assigned,Assigned,Complete,Complete,Internal
+2026-10-12,A051,Recruitment Tracking,Human Resources,Assigned,Missing,Complete,Missing,Internal
+2026-10-12,A052,Employee Benefits,Human Resources,Assigned,Assigned,Complete,Complete,Missing
+2026-10-12,A053,Performance Reviews,Human Resources,Assigned,Missing,Missing,Missing,Confidential
+2026-10-12,A054,Workforce Planning,Human Resources,Assigned,Assigned,Complete,Complete,Internal
+2026-10-12,A055,Staff Scheduling,Human Resources,Assigned,Assigned,Complete,Missing,Missing
+2026-10-12,A056,Employee Onboarding,Human Resources,Assigned,Assigned,Missing,Complete,Internal
+2026-10-12,A057,Position Management,Human Resources,Missing,Missing,Missing,Missing,Internal
+2026-10-12,A058,Employee Relations,Human Resources,Assigned,Missing,Missing,Missing,Confidential
+2026-10-12,A059,Learning Management,Human Resources,Assigned,Assigned,Complete,Complete,Internal
+2026-10-12,A060,Exit Interviews,Human Resources,Missing,Missing,Missing,Missing,Confidential
+2026-10-19,A001,Patient Encounters,Clinical Analytics,Assigned,Assigned,Missing,Complete,Confidential
+2026-10-19,A002,Emergency Visits,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-19,A003,Outpatient Appointments,Clinical Analytics,Assigned,Missing,Complete,Missing,Missing
+2026-10-19,A004,Clinical Orders,Clinical Analytics,Assigned,Assigned,Missing,Complete,Confidential
+2026-10-19,A005,Inpatient Admissions,Clinical Analytics,Assigned,Assigned,Complete,Missing,Confidential
+2026-10-19,A006,Patient Transfers,Clinical Analytics,Assigned,Missing,Missing,Missing,Missing
+2026-10-19,A007,Clinical Procedures,Clinical Analytics,Assigned,Assigned,Missing,Missing,Confidential
+2026-10-19,A008,Medication Administration,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-19,A009,Discharge Records,Clinical Analytics,Missing,Missing,Complete,Missing,Confidential
+2026-10-19,A010,Provider Encounters,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-19,A011,Clinical Documentation,Clinical Analytics,Assigned,Missing,Missing,Missing,Confidential
+2026-10-19,A012,Referral Tracking,Clinical Analytics,Assigned,Assigned,Complete,Complete,Missing
+2026-10-19,A013,Billing Transactions,Revenue Cycle,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-19,A014,Claims Processing,Revenue Cycle,Missing,Assigned,Complete,Complete,Confidential
+2026-10-19,A015,Insurance Verification,Revenue Cycle,Assigned,Missing,Complete,Complete,Confidential
+2026-10-19,A016,Payment Posting,Revenue Cycle,Assigned,Assigned,Missing,Complete,Confidential
+2026-10-19,A017,Denial Management,Revenue Cycle,Assigned,Assigned,Complete,Missing,Confidential
+2026-10-19,A018,Charge Capture,Revenue Cycle,Assigned,Missing,Missing,Missing,Missing
+2026-10-19,A019,Accounts Receivable,Revenue Cycle,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-19,A020,Revenue Forecasting,Revenue Cycle,Assigned,Assigned,Complete,Complete,Internal
+2026-10-19,A021,Patient Estimates,Revenue Cycle,Missing,Missing,Complete,Missing,Confidential
+2026-10-19,A022,Contract Management,Revenue Cycle,Assigned,Assigned,Complete,Complete,Internal
+2026-10-19,A023,Collections Reporting,Revenue Cycle,Assigned,Missing,Missing,Missing,Confidential
+2026-10-19,A024,Financial Adjustments,Revenue Cycle,Assigned,Assigned,Complete,Complete,Internal
+2026-10-19,A025,Stroke Quality Measures,Quality Improvement,Assigned,Assigned,Complete,Complete,Missing
+2026-10-19,A026,Patient Safety Events,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-19,A027,Readmission Measures,Quality Improvement,Assigned,Assigned,Missing,Complete,Confidential
+2026-10-19,A028,Infection Surveillance,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-19,A029,Quality Scorecards,Quality Improvement,Missing,Missing,Complete,Complete,Internal
+2026-10-19,A030,Clinical Outcomes,Quality Improvement,Assigned,Assigned,Missing,Missing,Confidential
+2026-10-19,A031,Performance Improvement,Quality Improvement,Assigned,Assigned,Complete,Complete,Internal
+2026-10-19,A032,Regulatory Measures,Quality Improvement,Assigned,Assigned,Complete,Complete,Missing
+2026-10-19,A033,Patient Experience,Quality Improvement,Assigned,Missing,Complete,Complete,Confidential
+2026-10-19,A034,Quality Audits,Quality Improvement,Assigned,Assigned,Complete,Missing,Internal
+2026-10-19,A035,Compliance Tracking,Quality Improvement,Assigned,Assigned,Missing,Complete,Internal
+2026-10-19,A036,Improvement Projects,Quality Improvement,Assigned,Assigned,Missing,Complete,Internal
+2026-10-19,A037,Medical Record Index,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-19,A038,Release of Information,Health Information Management,Assigned,Missing,Complete,Complete,Confidential
+2026-10-19,A039,Document Imaging,Health Information Management,Assigned,Assigned,Complete,Missing,Confidential
+2026-10-19,A040,Record Completion,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-19,A041,Coding Audits,Health Information Management,Assigned,Assigned,Complete,Missing,Confidential
+2026-10-19,A042,Diagnosis Coding,Health Information Management,Assigned,Assigned,Missing,Missing,Confidential
+2026-10-19,A043,Procedure Coding,Health Information Management,Assigned,Missing,Complete,Complete,Confidential
+2026-10-19,A044,Record Retention,Health Information Management,Assigned,Assigned,Complete,Complete,Internal
+2026-10-19,A045,Documentation Deficiencies,Health Information Management,Missing,Missing,Missing,Missing,Confidential
+2026-10-19,A046,Chart Corrections,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-19,A047,Abstracting Records,Health Information Management,Assigned,Missing,Complete,Missing,Confidential
+2026-10-19,A048,Privacy Requests,Health Information Management,Assigned,Assigned,Missing,Complete,Confidential
+2026-10-19,A049,Employee Directory,Human Resources,Assigned,Assigned,Complete,Complete,Internal
+2026-10-19,A050,Training Records,Human Resources,Assigned,Assigned,Complete,Complete,Missing
+2026-10-19,A051,Recruitment Tracking,Human Resources,Assigned,Missing,Complete,Complete,Internal
+2026-10-19,A052,Employee Benefits,Human Resources,Assigned,Missing,Complete,Complete,Confidential
+2026-10-19,A053,Performance Reviews,Human Resources,Assigned,Missing,Missing,Missing,Confidential
+2026-10-19,A054,Workforce Planning,Human Resources,Assigned,Assigned,Complete,Complete,Internal
+2026-10-19,A055,Staff Scheduling,Human Resources,Assigned,Missing,Complete,Missing,Internal
+2026-10-19,A056,Employee Onboarding,Human Resources,Assigned,Assigned,Complete,Complete,Internal
+2026-10-19,A057,Position Management,Human Resources,Missing,Assigned,Missing,Missing,Internal
+2026-10-19,A058,Employee Relations,Human Resources,Assigned,Missing,Complete,Missing,Confidential
+2026-10-19,A059,Learning Management,Human Resources,Missing,Assigned,Complete,Complete,Internal
+2026-10-19,A060,Exit Interviews,Human Resources,Missing,Missing,Missing,Missing,Confidential
+2026-10-26,A001,Patient Encounters,Clinical Analytics,Assigned,Missing,Complete,Complete,Confidential
+2026-10-26,A002,Emergency Visits,Clinical Analytics,Assigned,Assigned,Missing,Complete,Confidential
+2026-10-26,A003,Outpatient Appointments,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-26,A004,Clinical Orders,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-26,A005,Inpatient Admissions,Clinical Analytics,Assigned,Assigned,Complete,Missing,Confidential
+2026-10-26,A006,Patient Transfers,Clinical Analytics,Assigned,Missing,Missing,Missing,Missing
+2026-10-26,A007,Clinical Procedures,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-26,A008,Medication Administration,Clinical Analytics,Assigned,Assigned,Complete,Complete,Missing
+2026-10-26,A009,Discharge Records,Clinical Analytics,Missing,Assigned,Missing,Missing,Confidential
+2026-10-26,A010,Provider Encounters,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-26,A011,Clinical Documentation,Clinical Analytics,Assigned,Missing,Missing,Missing,Confidential
+2026-10-26,A012,Referral Tracking,Clinical Analytics,Assigned,Assigned,Complete,Complete,Missing
+2026-10-26,A013,Billing Transactions,Revenue Cycle,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-26,A014,Claims Processing,Revenue Cycle,Missing,Assigned,Complete,Complete,Confidential
+2026-10-26,A015,Insurance Verification,Revenue Cycle,Assigned,Missing,Complete,Missing,Missing
+2026-10-26,A016,Payment Posting,Revenue Cycle,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-26,A017,Denial Management,Revenue Cycle,Assigned,Assigned,Complete,Missing,Confidential
+2026-10-26,A018,Charge Capture,Revenue Cycle,Assigned,Missing,Missing,Complete,Confidential
+2026-10-26,A019,Accounts Receivable,Revenue Cycle,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-26,A020,Revenue Forecasting,Revenue Cycle,Assigned,Assigned,Complete,Complete,Internal
+2026-10-26,A021,Patient Estimates,Revenue Cycle,Missing,Missing,Complete,Missing,Confidential
+2026-10-26,A022,Contract Management,Revenue Cycle,Assigned,Assigned,Missing,Complete,Internal
+2026-10-26,A023,Collections Reporting,Revenue Cycle,Assigned,Missing,Missing,Missing,Confidential
+2026-10-26,A024,Financial Adjustments,Revenue Cycle,Assigned,Assigned,Complete,Complete,Missing
+2026-10-26,A025,Stroke Quality Measures,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-26,A026,Patient Safety Events,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-26,A027,Readmission Measures,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-26,A028,Infection Surveillance,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-26,A029,Quality Scorecards,Quality Improvement,Assigned,Assigned,Complete,Complete,Internal
+2026-10-26,A030,Clinical Outcomes,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-26,A031,Performance Improvement,Quality Improvement,Assigned,Assigned,Missing,Complete,Internal
+2026-10-26,A032,Regulatory Measures,Quality Improvement,Assigned,Assigned,Complete,Missing,Confidential
+2026-10-26,A033,Patient Experience,Quality Improvement,Assigned,Missing,Complete,Complete,Confidential
+2026-10-26,A034,Quality Audits,Quality Improvement,Assigned,Assigned,Complete,Missing,Missing
+2026-10-26,A035,Compliance Tracking,Quality Improvement,Assigned,Missing,Complete,Missing,Internal
+2026-10-26,A036,Improvement Projects,Quality Improvement,Assigned,Assigned,Complete,Complete,Internal
+2026-10-26,A037,Medical Record Index,Health Information Management,Assigned,Assigned,Complete,Complete,Missing
+2026-10-26,A038,Release of Information,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-26,A039,Document Imaging,Health Information Management,Missing,Missing,Complete,Missing,Confidential
+2026-10-26,A040,Record Completion,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-26,A041,Coding Audits,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-26,A042,Diagnosis Coding,Health Information Management,Assigned,Missing,Complete,Missing,Confidential
+2026-10-26,A043,Procedure Coding,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-26,A044,Record Retention,Health Information Management,Assigned,Assigned,Complete,Complete,Internal
+2026-10-26,A045,Documentation Deficiencies,Health Information Management,Missing,Assigned,Missing,Missing,Confidential
+2026-10-26,A046,Chart Corrections,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-26,A047,Abstracting Records,Health Information Management,Assigned,Missing,Complete,Missing,Confidential
+2026-10-26,A048,Privacy Requests,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-26,A049,Employee Directory,Human Resources,Assigned,Assigned,Complete,Complete,Internal
+2026-10-26,A050,Training Records,Human Resources,Assigned,Assigned,Complete,Complete,Internal
+2026-10-26,A051,Recruitment Tracking,Human Resources,Assigned,Missing,Complete,Missing,Internal
+2026-10-26,A052,Employee Benefits,Human Resources,Assigned,Assigned,Complete,Complete,Confidential
+2026-10-26,A053,Performance Reviews,Human Resources,Assigned,Missing,Missing,Missing,Confidential
+2026-10-26,A054,Workforce Planning,Human Resources,Assigned,Assigned,Complete,Complete,Internal
+2026-10-26,A055,Staff Scheduling,Human Resources,Assigned,Missing,Complete,Missing,Internal
+2026-10-26,A056,Employee Onboarding,Human Resources,Assigned,Assigned,Complete,Complete,Internal
+2026-10-26,A057,Position Management,Human Resources,Missing,Missing,Missing,Complete,Internal
+2026-10-26,A058,Employee Relations,Human Resources,Assigned,Missing,Complete,Missing,Missing
+2026-10-26,A059,Learning Management,Human Resources,Assigned,Missing,Complete,Complete,Internal
+2026-10-26,A060,Exit Interviews,Human Resources,Missing,Missing,Missing,Complete,Confidential
+2026-11-02,A001,Patient Encounters,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-02,A002,Emergency Visits,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-02,A003,Outpatient Appointments,Clinical Analytics,Missing,Missing,Complete,Missing,Confidential
+2026-11-02,A004,Clinical Orders,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-02,A005,Inpatient Admissions,Clinical Analytics,Assigned,Assigned,Complete,Missing,Confidential
+2026-11-02,A006,Patient Transfers,Clinical Analytics,Assigned,Missing,Missing,Missing,Missing
+2026-11-02,A007,Clinical Procedures,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-02,A008,Medication Administration,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-02,A009,Discharge Records,Clinical Analytics,Missing,Assigned,Complete,Missing,Confidential
+2026-11-02,A010,Provider Encounters,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-02,A011,Clinical Documentation,Clinical Analytics,Assigned,Missing,Missing,Missing,Confidential
+2026-11-02,A012,Referral Tracking,Clinical Analytics,Assigned,Assigned,Complete,Complete,Missing
+2026-11-02,A013,Billing Transactions,Revenue Cycle,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-02,A014,Claims Processing,Revenue Cycle,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-02,A015,Insurance Verification,Revenue Cycle,Assigned,Missing,Complete,Complete,Missing
+2026-11-02,A016,Payment Posting,Revenue Cycle,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-02,A017,Denial Management,Revenue Cycle,Assigned,Assigned,Complete,Missing,Confidential
+2026-11-02,A018,Charge Capture,Revenue Cycle,Assigned,Missing,Missing,Missing,Confidential
+2026-11-02,A019,Accounts Receivable,Revenue Cycle,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-02,A020,Revenue Forecasting,Revenue Cycle,Assigned,Assigned,Complete,Complete,Internal
+2026-11-02,A021,Patient Estimates,Revenue Cycle,Missing,Missing,Complete,Missing,Confidential
+2026-11-02,A022,Contract Management,Revenue Cycle,Assigned,Assigned,Complete,Complete,Internal
+2026-11-02,A023,Collections Reporting,Revenue Cycle,Assigned,Missing,Missing,Missing,Confidential
+2026-11-02,A024,Financial Adjustments,Revenue Cycle,Assigned,Assigned,Complete,Complete,Internal
+2026-11-02,A025,Stroke Quality Measures,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-02,A026,Patient Safety Events,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-02,A027,Readmission Measures,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-02,A028,Infection Surveillance,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-02,A029,Quality Scorecards,Quality Improvement,Assigned,Assigned,Complete,Complete,Internal
+2026-11-02,A030,Clinical Outcomes,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-02,A031,Performance Improvement,Quality Improvement,Assigned,Assigned,Complete,Complete,Internal
+2026-11-02,A032,Regulatory Measures,Quality Improvement,Missing,Assigned,Complete,Complete,Confidential
+2026-11-02,A033,Patient Experience,Quality Improvement,Assigned,Missing,Complete,Complete,Confidential
+2026-11-02,A034,Quality Audits,Quality Improvement,Assigned,Assigned,Complete,Missing,Internal
+2026-11-02,A035,Compliance Tracking,Quality Improvement,Assigned,Assigned,Complete,Complete,Internal
+2026-11-02,A036,Improvement Projects,Quality Improvement,Assigned,Assigned,Complete,Complete,Internal
+2026-11-02,A037,Medical Record Index,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-02,A038,Release of Information,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-02,A039,Document Imaging,Health Information Management,Assigned,Missing,Complete,Missing,Confidential
+2026-11-02,A040,Record Completion,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-02,A041,Coding Audits,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-02,A042,Diagnosis Coding,Health Information Management,Assigned,Missing,Complete,Missing,Confidential
+2026-11-02,A043,Procedure Coding,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-02,A044,Record Retention,Health Information Management,Assigned,Assigned,Complete,Complete,Internal
+2026-11-02,A045,Documentation Deficiencies,Health Information Management,Assigned,Missing,Missing,Missing,Confidential
+2026-11-02,A046,Chart Corrections,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-02,A047,Abstracting Records,Health Information Management,Assigned,Missing,Missing,Missing,Missing
+2026-11-02,A048,Privacy Requests,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-02,A049,Employee Directory,Human Resources,Assigned,Assigned,Complete,Complete,Internal
+2026-11-02,A050,Training Records,Human Resources,Assigned,Assigned,Complete,Complete,Internal
+2026-11-02,A051,Recruitment Tracking,Human Resources,Assigned,Missing,Complete,Missing,Internal
+2026-11-02,A052,Employee Benefits,Human Resources,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-02,A053,Performance Reviews,Human Resources,Assigned,Missing,Missing,Missing,Confidential
+2026-11-02,A054,Workforce Planning,Human Resources,Assigned,Assigned,Complete,Complete,Internal
+2026-11-02,A055,Staff Scheduling,Human Resources,Assigned,Missing,Complete,Missing,Internal
+2026-11-02,A056,Employee Onboarding,Human Resources,Assigned,Assigned,Complete,Complete,Missing
+2026-11-02,A057,Position Management,Human Resources,Missing,Missing,Missing,Missing,Internal
+2026-11-02,A058,Employee Relations,Human Resources,Assigned,Missing,Complete,Missing,Confidential
+2026-11-02,A059,Learning Management,Human Resources,Assigned,Assigned,Complete,Complete,Internal
+2026-11-02,A060,Exit Interviews,Human Resources,Missing,Missing,Missing,Missing,Confidential
+2026-11-09,A001,Patient Encounters,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-09,A002,Emergency Visits,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-09,A003,Outpatient Appointments,Clinical Analytics,Assigned,Missing,Complete,Missing,Confidential
+2026-11-09,A004,Clinical Orders,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-09,A005,Inpatient Admissions,Clinical Analytics,Assigned,Assigned,Complete,Missing,Confidential
+2026-11-09,A006,Patient Transfers,Clinical Analytics,Assigned,Missing,Missing,Missing,Missing
+2026-11-09,A007,Clinical Procedures,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-09,A008,Medication Administration,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-09,A009,Discharge Records,Clinical Analytics,Missing,Assigned,Complete,Missing,Confidential
+2026-11-09,A010,Provider Encounters,Clinical Analytics,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-09,A011,Clinical Documentation,Clinical Analytics,Assigned,Missing,Missing,Missing,Confidential
+2026-11-09,A012,Referral Tracking,Clinical Analytics,Assigned,Assigned,Complete,Complete,Missing
+2026-11-09,A013,Billing Transactions,Revenue Cycle,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-09,A014,Claims Processing,Revenue Cycle,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-09,A015,Insurance Verification,Revenue Cycle,Assigned,Missing,Complete,Complete,Confidential
+2026-11-09,A016,Payment Posting,Revenue Cycle,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-09,A017,Denial Management,Revenue Cycle,Assigned,Assigned,Complete,Missing,Confidential
+2026-11-09,A018,Charge Capture,Revenue Cycle,Assigned,Missing,Missing,Missing,Confidential
+2026-11-09,A019,Accounts Receivable,Revenue Cycle,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-09,A020,Revenue Forecasting,Revenue Cycle,Assigned,Assigned,Complete,Complete,Internal
+2026-11-09,A021,Patient Estimates,Revenue Cycle,Missing,Missing,Complete,Missing,Confidential
+2026-11-09,A022,Contract Management,Revenue Cycle,Assigned,Assigned,Complete,Complete,Internal
+2026-11-09,A023,Collections Reporting,Revenue Cycle,Assigned,Missing,Missing,Missing,Confidential
+2026-11-09,A024,Financial Adjustments,Revenue Cycle,Assigned,Assigned,Complete,Complete,Internal
+2026-11-09,A025,Stroke Quality Measures,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-09,A026,Patient Safety Events,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-09,A027,Readmission Measures,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-09,A028,Infection Surveillance,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-09,A029,Quality Scorecards,Quality Improvement,Assigned,Assigned,Complete,Complete,Internal
+2026-11-09,A030,Clinical Outcomes,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-09,A031,Performance Improvement,Quality Improvement,Assigned,Assigned,Complete,Complete,Internal
+2026-11-09,A032,Regulatory Measures,Quality Improvement,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-09,A033,Patient Experience,Quality Improvement,Assigned,Missing,Complete,Complete,Confidential
+2026-11-09,A034,Quality Audits,Quality Improvement,Assigned,Assigned,Complete,Missing,Internal
+2026-11-09,A035,Compliance Tracking,Quality Improvement,Assigned,Assigned,Complete,Complete,Internal
+2026-11-09,A036,Improvement Projects,Quality Improvement,Assigned,Assigned,Complete,Complete,Internal
+2026-11-09,A037,Medical Record Index,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-09,A038,Release of Information,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-09,A039,Document Imaging,Health Information Management,Assigned,Missing,Complete,Missing,Confidential
+2026-11-09,A040,Record Completion,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-09,A041,Coding Audits,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-09,A042,Diagnosis Coding,Health Information Management,Assigned,Missing,Complete,Missing,Confidential
+2026-11-09,A043,Procedure Coding,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-09,A044,Record Retention,Health Information Management,Assigned,Assigned,Complete,Complete,Internal
+2026-11-09,A045,Documentation Deficiencies,Health Information Management,Missing,Missing,Missing,Missing,Confidential
+2026-11-09,A046,Chart Corrections,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-09,A047,Abstracting Records,Health Information Management,Assigned,Missing,Complete,Missing,Confidential
+2026-11-09,A048,Privacy Requests,Health Information Management,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-09,A049,Employee Directory,Human Resources,Assigned,Assigned,Complete,Complete,Internal
+2026-11-09,A050,Training Records,Human Resources,Assigned,Assigned,Complete,Complete,Internal
+2026-11-09,A051,Recruitment Tracking,Human Resources,Assigned,Missing,Complete,Missing,Internal
+2026-11-09,A052,Employee Benefits,Human Resources,Assigned,Assigned,Complete,Complete,Confidential
+2026-11-09,A053,Performance Reviews,Human Resources,Assigned,Missing,Missing,Missing,Confidential
+2026-11-09,A054,Workforce Planning,Human Resources,Assigned,Assigned,Complete,Complete,Internal
+2026-11-09,A055,Staff Scheduling,Human Resources,Assigned,Missing,Complete,Missing,Internal
+2026-11-09,A056,Employee Onboarding,Human Resources,Assigned,Assigned,Complete,Complete,Internal
+2026-11-09,A057,Position Management,Human Resources,Missing,Missing,Missing,Missing,Internal
+2026-11-09,A058,Employee Relations,Human Resources,Assigned,Missing,Complete,Missing,Confidential
+2026-11-09,A059,Learning Management,Human Resources,Assigned,Assigned,Complete,Complete,Internal
+2026-11-09,A060,Exit Interviews,Human Resources,Missing,Missing,Missing,Missing,Confidential

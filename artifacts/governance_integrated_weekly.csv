@@ -1,0 +1,13 @@
+week,metadata_completeness_pct,ownership_pct,stewardship_pct,documentation_gaps_pct,governance_readiness_score,metadata_completeness_pct_anomaly,ownership_pct_anomaly,stewardship_pct_anomaly,documentation_gaps_pct_anomaly,metadata_completeness_pct_rolling_mean,ownership_pct_rolling_mean,stewardship_pct_rolling_mean,documentation_gaps_pct_rolling_mean
+2026-08-24,16.67,58.33,51.67,73.33,38.34,true,true,true,true,,,,
+2026-08-31,21.67,63.33,38.33,70.0,38.33,true,true,true,true,,,,
+2026-09-07,23.33,68.33,48.33,68.33,42.92,true,true,true,true,,,,
+2026-09-14,28.33,66.67,43.33,65.0,43.33,true,true,true,true,,,,
+2026-09-21,23.33,70.0,55.0,63.33,46.25,true,true,true,true,22.67,65.33,47.33,68.0
+2026-09-28,38.33,65.0,61.67,48.33,54.17,true,true,true,true,27.0,66.67,49.33,63.0
+2026-10-05,40.0,83.33,63.33,51.67,58.75,true,false,true,true,30.66,70.67,54.33,59.33
+2026-10-12,45.0,86.67,56.67,46.67,60.42,true,false,true,true,35.0,74.33,56.0,55.0
+2026-10-19,45.0,86.67,66.67,48.33,62.5,true,false,true,true,38.33,78.33,60.67,51.67
+2026-10-26,51.67,88.33,68.33,41.67,66.66,true,false,true,true,44.0,82.0,63.33,47.33
+2026-11-02,61.67,90.0,70.0,33.33,72.09,false,false,false,false,48.67,87.0,65.0,44.33
+2026-11-09,65.0,91.67,70.0,33.33,73.34,false,false,false,false,53.67,88.67,66.33,40.67

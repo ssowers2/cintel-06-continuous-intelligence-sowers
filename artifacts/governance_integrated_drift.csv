@@ -1,0 +1,5 @@
+metric,reference_mean_pct,current_mean_pct,difference_pp,threshold_pp,drift_flag,direction
+metadata_completeness_pct,25.28,51.39,26.11,20.0,true,IMPROVING
+ownership_pct,65.28,87.78,22.5,20.0,true,IMPROVING
+stewardship_pct,49.72,65.83,16.11,20.0,false,IMPROVING
+documentation_gaps_pct,64.72,42.5,-22.22,20.0,true,IMPROVING

@@ -99,7 +99,7 @@ def _(design_signals, load_system_metrics, mo, sys):
     filename = "system_metrics.csv"
 
     if sys.platform == "emscripten":
-        from pyodide.http import open_url  # ty: ignore[unresolved-import]
+        from pyodide.http import open_url  # ty: ignore[import-not-found]
 
         data_url = notebook_location / "public" / filename
         df = load_system_metrics(open_url(str(data_url)))

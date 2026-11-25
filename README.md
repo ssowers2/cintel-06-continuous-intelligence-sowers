@@ -21,9 +21,9 @@ This project brings together techniques introduced throughout the Continuous Int
 
 The original example uses operational system measurements to identify unusual behavior and classify the overall system state as STABLE or DEGRADED.
 
-### Planned Customization
+### Custom Governance Application
 
-The planned customization will extend the Metadata Completeness & Governance Readiness Monitor developed in previous projects.
+This customization extends the Metadata Completeness & Governance Readiness Monitor developed in previous projects. The integrated Python pipeline is implemented and verified; the interactive dashboard is the next development stage.
 
 The goal is to integrate multiple monitoring techniques into one continuous intelligence application using synthetic healthcare metadata.
 
@@ -147,6 +147,64 @@ The experiment demonstrates how monitoring thresholds influence system classific
 The full experiment, including the methodology and interpretation, is documented on the [Project 06 Documentation Site](https://ssowers2.github.io/cintel-06-continuous-intelligence-sowers/).
 
 [View Modified System Assessment](artifacts/system_assessment.csv)
+
+## Integrated Governance Monitoring
+
+The custom application applies continuous intelligence techniques to 12 weeks of synthetic healthcare metadata measurements.
+
+### Techniques Applied
+
+- **Signal design:** Calculates a composite governance readiness score using four equally weighted metrics.
+- **Anomaly detection:** Identifies measurements that fall outside illustrative governance thresholds.
+- **Rolling monitoring:** Calculates five-week rolling averages to identify trends.
+- **Drift detection:** Compares six historical weeks with six current weeks using a 20-percentage-point threshold.
+- **System assessment:** Combines current anomalies and declining drift to classify governance readiness.
+
+The four governance metrics are metadata completeness, ownership coverage, stewardship coverage, and documentation gaps.
+
+### Run the Governance Pipeline
+
+From the project root in VS Code:
+
+```powershell
+uv run python -m cintel.governance_intelligence
+```
+
+The pipeline generates three CSV artifacts:
+
+- `artifacts/governance_integrated_weekly.csv`
+- `artifacts/governance_integrated_drift.csv`
+- `artifacts/governance_integrated_assessment.csv`
+
+### Verified Results
+
+| Measurement | Result |
+|---|---|
+| Weekly observations | 12 |
+| Latest observation | November 9, 2026 |
+| Governance readiness score | 73.34 |
+| Current threshold violations | 0 |
+| Metrics flagged for drift | 3 of 4 |
+| Declining drift | 0 |
+| Overall governance state | READY |
+
+Three governance metrics exceeded the drift threshold, but all four metrics improved between the reference and current periods.
+
+The overall classification is READY because the latest measurements have no threshold violations and no meaningful declining drift.
+
+These classifications and thresholds are illustrative and are not established healthcare governance standards.
+
+### Automated Testing
+
+Run:
+
+```powershell
+uv run pytest -v
+```
+
+Verification completed successfully with **7 passing tests and 53.21% overall code coverage**.
+
+See the [Project Documentation](https://ssowers2.github.io/cintel-06-continuous-intelligence-sowers/) for the detailed analysis and interpretation.
 
 ## Verification
 
