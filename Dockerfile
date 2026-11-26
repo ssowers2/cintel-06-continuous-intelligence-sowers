@@ -39,8 +39,7 @@ RUN uv python pin 3.14
 # ASSEMBLE: INSTALL DEPENDENCIES
 # ============================================================
 # WHY: Install all required dependencies including dev and docs.
-RUN uv sync --extra dev --extra docs --upgrade
-
+RUN uv sync --all-groups --locked
 # ============================================================
 # EXECUTE: RUN APPLICATION
 # ============================================================
