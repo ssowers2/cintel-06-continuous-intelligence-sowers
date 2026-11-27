@@ -12,18 +12,29 @@ Data is synthetic and intended for educational purposes.
 
 import logging
 from pathlib import Path
+import sys
 from typing import Final
 
 import polars as pl
 
-from cintel.utils_governance import (
-    METRICS,
-    compute_governance_drift,
-    compute_governance_rolling,
-    design_governance_signals,
-    detect_governance_anomalies,
-    load_governance_metrics,
-)
+if sys.platform == "emscripten":
+    from utils_governance import (  # ty: ignore[import-not-found]
+        METRICS,
+        compute_governance_drift,
+        compute_governance_rolling,
+        design_governance_signals,
+        detect_governance_anomalies,
+        load_governance_metrics,
+    )
+else:
+    from cintel.utils_governance import (
+        METRICS,
+        compute_governance_drift,
+        compute_governance_rolling,
+        design_governance_signals,
+        detect_governance_anomalies,
+        load_governance_metrics,
+    )
 
 # === CONFIGURATION ===
 

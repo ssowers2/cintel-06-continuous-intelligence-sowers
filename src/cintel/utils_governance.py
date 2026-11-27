@@ -17,7 +17,7 @@ All percentage-based metrics use a 0-100 scale.
 """
 
 from pathlib import Path
-from typing import cast
+from typing import IO, cast
 
 import polars as pl
 
@@ -53,7 +53,7 @@ HIGHER_IS_BETTER = {
 # === LOAD WEEKLY GOVERNANCE DATA ===
 
 
-def load_governance_metrics(data_file: Path) -> pl.DataFrame:
+def load_governance_metrics(data_file: Path | IO[str]) -> pl.DataFrame:
     """Load and sort weekly governance measurements."""
     return pl.read_csv(data_file, try_parse_dates=True).sort("week")
 

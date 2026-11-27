@@ -1,21 +1,17 @@
+
 # Continuous Intelligence System Assessment
 
 Continuous Intelligence | Project 06 | Example Report
 
 ## Overview
 
-This project integrates signal design,
-anomaly detection, and system assessment
-into a continuous intelligence pipeline.
+This project integrates signal design, anomaly detection, and system assessment into a continuous intelligence pipeline.
 
-The objective is to transform operational measurements
-into interpretable indicators of system behavior
-and produce an overall assessment of system state.
+The objective is to transform operational measurements into interpretable indicators of system behavior and produce an overall assessment of system state.
 
 ## Data
 
-The example dataset contains 60 observations
-of system activity.
+The example dataset contains 60 observations of system activity.
 
 Each observation records:
 
@@ -23,8 +19,7 @@ Each observation records:
 - Errors encountered.
 - Total response time in milliseconds.
 
-The dataset includes a period of elevated
-errors and response times.
+The dataset includes a period of elevated errors and response times.
 
 [View Example Dataset](https://github.com/ssowers2/cintel-06-continuous-intelligence-sowers/blob/main/data/system_metrics.csv)
 
@@ -48,8 +43,7 @@ Individual observations are flagged when:
 
 ### 3. System Assessment
 
-The pipeline calculates mean values
-across all observations.
+The pipeline calculates mean values across all observations.
 
 It classifies the overall system state as:
 
@@ -60,13 +54,13 @@ It classifies the overall system state as:
 
 The original example, using a 40 ms latency threshold, produces the following assessment.
 
-| Metric               |   Result |
-| -------------------- | -------: |
-| Average requests     |   157.35 |
-| Average errors       |     4.43 |
-| Average error rate   |    2.65% |
-| Average latency      | 33.71 ms |
-| Overall system state |   STABLE |
+| Metric | Result |
+|---|---:|
+| Average requests | 157.35 |
+| Average errors | 4.43 |
+| Average error rate | 2.65% |
+| Average latency | 33.71 ms |
+| Overall system state | STABLE |
 
 The original example also identifies **7 anomalous observations** using its original thresholds.
 
@@ -96,7 +90,7 @@ The pipeline executed successfully, and the system assessment changed from STABL
 | Average latency | 33.71 ms | 33.71 ms |
 | System state | STABLE | DEGRADED |
 
-Automated testing completed successfully with one passing test and 44.17% code coverage.
+Automated testing completed successfully with one passing test and 44.17% code coverage at this stage of development.
 
 ### Interpretation
 
@@ -104,54 +98,35 @@ The experiment demonstrates that monitoring thresholds directly influence system
 
 ## Original Interpretation
 
-The overall assessment is `STABLE`
-because the average error rate and latency
-remain below their configured thresholds.
+The overall assessment is `STABLE` because the average error rate and latency remain below their configured thresholds.
 
-However, several individual observations
-exceed the anomaly thresholds.
+However, several individual observations exceed the anomaly thresholds.
 
 This distinction is important.
 
-A system may appear stable when summarized
-across an entire observation period
-while experiencing shorter episodes
-of degraded performance.
+A system may appear stable when summarized across an entire observation period while experiencing shorter episodes of degraded performance.
 
-Monitoring should consider both overall
-conditions and localized anomalies.
+Monitoring should consider both overall conditions and localized anomalies.
 
 ## Limitations
 
-The example assessment is based on aggregate
-means and fixed thresholds.
+The original example assessment is based on aggregate means and fixed thresholds.
 
-It does not yet incorporate rolling-window analysis,
-reference-period drift comparisons,
-or persistent alerting.
+It does not yet incorporate rolling-window analysis, reference-period drift comparisons, or persistent alerting.
 
-The final assessment artifact contains summary metrics
-but does not preserve the individual anomaly records.
+The final assessment artifact contains summary metrics but does not preserve the individual anomaly records.
 
-A more complete system could retain
-observation-level evidence and combine
-rolling monitoring, drift detection,
-and system-state classification.
+A more complete system could retain observation-level evidence and combine rolling monitoring, drift detection, and system-state classification.
 
 ## Conclusion
 
-Continuous intelligence connects measurements,
-signals, analytical rules, and interpretation.
+Continuous intelligence connects measurements, signals, analytical rules, and interpretation.
 
-The example demonstrates how several techniques
-can contribute to an assessment of system behavior.
+The original example demonstrates how several techniques can contribute to an assessment of system behavior.
 
-Its most important finding is that
-**an overall stable classification does not guarantee
-that every observation was within acceptable limits.**
+Its most important finding is that **an overall stable classification does not guarantee that every observation was within acceptable limits.**
 
-Effective monitoring requires both summary assessments
-and sufficient detail to investigate anomalous conditions.
+Effective monitoring requires both summary assessments and sufficient detail to investigate anomalous conditions.
 
 ## Documentation Index
 
@@ -170,8 +145,10 @@ and sufficient detail to investigate anomalous conditions.
 
 - [Project Instructions](project-instructions.md)
 - [Professional Python Guide](https://denisecase.github.io/pro-analytics-02/)
-- [Professional Python Project Explainer](https://pup-pack.github.io/professional-python-project-explainer/).
+- [Professional Python Project Explainer](https://pup-pack.github.io/professional-python-project-explainer/)
 - [Suggested Datasets](https://denisecase.github.io/pro-analytics-02/reference/datasets/cintel/)
+
+---
 
 ## Custom Application: Integrated Governance Intelligence
 
@@ -275,6 +252,29 @@ Although three metrics exceeded the drift threshold, their changes represented i
 
 This demonstrates why meaningful change should be evaluated alongside direction, operational expectations, and business context.
 
+### Interactive Governance Dashboard
+
+An interactive Marimo dashboard extends the integrated governance intelligence pipeline with visual monitoring and adjustable analytical controls.
+
+The dashboard allows users to:
+
+- Review the overall governance readiness classification and composite score.
+- Explore weekly trends across four governance metrics.
+- Compare weekly measurements with rolling averages.
+- Adjust the rolling monitoring window from 2 to 8 weeks.
+- Adjust the drift detection threshold from 5 to 40 percentage points.
+- Review drift results and weekly monitoring evidence.
+
+The dashboard runs directly in a web browser using Marimo and WebAssembly (WASM), without requiring users to install Python.
+
+#### Governance Monitoring Visualization
+
+![Governance Monitoring Trend](images/governance-trend.png)
+
+*Metadata completeness over 12 weekly observations, showing weekly measurements and a five-week rolling average.*
+
+**[Launch the Interactive Governance Dashboard](./governance/)**
+
 ### Verification
 
 The pipeline executed successfully and generated three evidence artifacts:
@@ -283,12 +283,16 @@ The pipeline executed successfully and generated three evidence artifacts:
 - `artifacts/governance_integrated_drift.csv`
 - `artifacts/governance_integrated_assessment.csv`
 
-Automated testing completed successfully with **7 passing tests and 53.21% overall code coverage**.
+Automated testing completed successfully with **7 passing tests and 37.11% overall code coverage**, exceeding the required 20% threshold.
+
+The interactive Marimo dashboard was also verified manually in both the local development environment and the browser-based WebAssembly export.
+
+The interactive dashboard was also tested successfully in the local Marimo environment and as an exported WebAssembly application served through a local web server.
 
 ### Limitations and Next Steps
 
 The analysis uses synthetic data covering only 12 weeks. The readiness thresholds, composite score weights, and classification rules are illustrative rather than validated organizational standards.
 
-Future improvements could include stakeholder-approved thresholds, actual governed metadata sources, longer observation periods, and persistent alerting.
+The integrated pipeline and interactive Marimo dashboard have been developed and tested locally, including successful execution of the browser-based WebAssembly export.
 
-The next development stage will integrate the results into an interactive Marimo dashboard with monitoring visualizations and adjustable controls.
+Future improvements could include stakeholder-approved thresholds, actual governed metadata sources, longer observation periods, automated notifications, and persistent alerting.

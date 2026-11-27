@@ -121,12 +121,21 @@ jobs:
         # OBS: In CI (ci-python-zensical.yml) the missing config is a soft skip.
         #      Here it is a hard failure because a deploy without docs is wrong.
 
+      - name: D1b) Export interactive governance dashboard
+        run: |
+          uv run marimo export html-wasm src/cintel/governance_app.py -o site/governance --mode run --force
+
       - name: D2) Verify site output exists
         run: |
           if [ ! -d "site" ]; then
             echo "## Documentation build output missing" >> "$GITHUB_STEP_SUMMARY"
             echo "Expected directory 'site/' was not created." >> "$GITHUB_STEP_SUMMARY"
             echo "Check the Zensical build step and zensical.toml configuration." >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+
+          fi
+                    if [ ! -f "site/governance/index.html" ]; then
+            echo "Governance dashboard export is missing."
             exit 1
           fi
         # WHY: Catch a silent build failure before attempting to upload an empty artifact.
