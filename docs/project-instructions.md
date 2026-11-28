@@ -1,5 +1,12 @@
 # Project Instructions
 
+*These are the original Project 06 assignment instructions provided
+by the instructor. The completed customized application, methods,
+and results are documented on the project homepage.*
+
+**Completed student repository:**
+[cintel-06-continuous-intelligence-sowers](https://github.com/ssowers2/cintel-06-continuous-intelligence-sowers)
+
 ## Goal
 
 Combine the techniques developed in earlier projects
